@@ -12,3 +12,6 @@ Az E-Commerce Express célja egy modern, felhasználóbarát és hatékony e-com
 
 ### 3. A Rendszerre Vonatkozó Pályázat, Törvények, Rendeletek, Szabványok és Ajánlások:
 Az E-Commerce Express projektnek meg kell felelnie az érvényes e-commerce vonatkozó jogszabályoknak, beleértve az adatvédelmi szabályozásokat (pl. GDPR), a fogyasztóvédelmi törvényeket, az elektronikus kereskedelmi irányelveket és a kibertámadások elleni védelem követelményeit. A webhelynek összhangban kell lennie az OWASP webalkalmazás-biztonsági szabványokkal.
+
+### 4. Jelenlegi Üzleti Folyamatok Modellje:
+A jelenlegi üzleti folyamatok közé tartozik a termékfeltöltés, a rendelések kezelése, a fizetések feldolgozása és a felhasználói fiókok kezelése. Ezen folyamatok manuálisak, időigényesek és hajlamosak a hibákra.
