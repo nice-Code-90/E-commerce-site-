@@ -24,6 +24,8 @@ A jelenlegi üzleti folyamatok közé tartozik a termékfeltöltés, a rendelés
 
 Az új rendszernek automatizálnia kell a termékfeltöltést, a rendelések kezelését, a fizetések feldolgozását és a felhasználói fiókok kezelését. Az üzleti folyamatoknak hatékonyabbnak és gyorsabbnak kell lenniük, minimalizálva az emberi beavatkozást.
 
+![Igényelt üzleti folyamatok](/Abrak/igenyeltuzleti.png)
+
 ### 6. Követelménylista:
 #### Felhasználói Interfész Követelményei:
 
