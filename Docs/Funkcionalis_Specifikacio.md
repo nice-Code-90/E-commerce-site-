@@ -181,3 +181,38 @@ A rendelés elküldésre kerül, és a fizetési tranzakció folyamatban van.
                   | // a rendszertől
                   |                          |
                   |                          |
+
+### 7. Megfeleltetés
+
+A "Megfeleltetés" fejezet azt mutatja be, hogyan lefedik a készülő rendszer funkcionalitásai a követelményeket.
+
+```markdown
+#### 7.1 Követelménylista és Funkcionalitás Megfeleltetése
+
+Az alábbi táblázat mutatja a követelménylistát és az ezekhez tartozó funkcionalitásokat a rendszerben. A táblázat segítségével ellenőrizhetjük, hogy minden követelményhez megvalósított funkcionalitás tartozik.
+
+\| Követelmény ID \| Követelmény Leírása \| Megvalósított Funkcionalitás \|
+\| -------------- \| -------------------- \| ---------------------------- \|
+\| 1 \| Reszponzív, felhasználóbarát dizájn \| Bejelentkezés, Regisztráció, Termékek böngészése \|
+\| 2 \| Kategóriák és szűrési lehetőségek \| Termékek böngészése \|
+\| 3 \| Egyszerű vásárlási folyamat és kosárkezelés \| Termék kosárba helyezése, Rendelés leadása \|
+\| 4 \| Felhasználói fiókok kezelése \| Bejelentkezés, Regisztráció \|
+\| 5 \| Adminisztrációs felület termékfeltöltéshez és rendelések kezeléséhez \| - \|
+\| 6 \| Gyors betöltési idő és teljesítmény \| Termékek böngészése \|
+\| 7 \| SSL titkosítás \| - \|
+\| 8 \| Felhasználói adatok biztonságos tárolása és kezelése \| Bejelentkezés, Regisztráció \|
+\| 9 \| Automatikus termékfeltöltési lehetőség CSV-fájlokból \| - \|
+\| 10 \| Kosár mentése és visszatöltése a felhasználó fiókjában \| Termék kosárba helyezése \|
+\| 11 \| Készletek és rendelések kezelése \| Termék kosárba helyezése, Rendelés leadása \|
+\| 12 \| Fizetési átjáró integrációk \| Rendelés leadása \|
+\| 13 \| Rendelési visszaigazolás és követési információk \| Rendelés leadása \|
+\| 14 \| Részletes eladási és felhasználói viselkedési riportok \| - \|
+\| 15 \| Felhasználói aktivitás nyomon követése és elemzése \| - \|
+
+#### 7.2 Megfeleltetési Jelölések
+
+A megfeleltetési táblázatban a következő jelöléseket használjuk:
+
+- **✓**: Az adott funkcionalitás teljes mértékben lefedi a követelményt.
+- **-**: Az adott funkcionalitás nem kapcsolódik a követelményhez.
+```
