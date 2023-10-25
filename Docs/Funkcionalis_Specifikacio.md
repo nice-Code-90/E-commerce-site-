@@ -51,3 +51,133 @@ Az új rendszernek kiemelten automatizálnia kell a termékfeltöltést, a rende
 | **Analitika és Riportok:**                |     |                                                                          |        |                                                                                                                                        |
 |                                           | 14  | **Részletes eladási és felhasználói viselkedési riportok**               | 1.0    | A rendszernek lehetővé kell tennie a részletes eladási és felhasználói viselkedési riportok generálását.                               |
 |                                           | 15  | **Felhasználói aktivitás nyomon követése és elemzése**                   | 1.0    | A felhasználói aktivitás nyomon követése és elemzése segíti az oldal optimalizálását és a felhasználói élmény javítását.               |
+
+### 6. Használati esetek:
+
+1. Bejelentkezés:
+
+Leírás:
+A felhasználó bejelentkezik a rendszerbe azonosítás céljából.
+
+Előfeltételek:
+A felhasználónak rendelkeznie kell érvényes felhasználói fiókkal.
+
+Utófeltételek:
+A felhasználó bejelentkezett állapotba kerül.
+
+2. Regisztráció:
+
+Leírás:
+A felhasználó új felhasználói fiókot hoz létre a rendszerben.
+
+Előfeltételek:
+A felhasználói fiókhoz érvényes adatokat kell megadni.
+
+Utófeltételek:
+Az új fiók létrejött a rendszerben.
+
+3. Termékek böngészése:
+
+Leírás:
+A felhasználó lehetővé teszi a termékek böngészését, keresését és megtekintését.
+
+Előfeltételek:
+A felhasználó a webhelyre be van jelentkezve.
+
+Utófeltételek:
+A felhasználó látja a rendelkezésre álló termékeket és részleteket.
+
+4. Termék kosárba helyezése:
+
+Leírás:
+A felhasználó egy vagy több terméket helyez a kosarába vásárlás céljából.
+
+Előfeltételek:
+A felhasználó be van jelentkezve, és termékeket választott ki.
+
+Utófeltételek:
+A kiválasztott termékek a felhasználó kosarában vannak.
+
+5. Rendelés leadása:
+
+Leírás:
+A felhasználó befejezi a vásárlást és elküldi a rendelést.
+
+Előfeltételek:
+A felhasználó be van jelentkezve, és termékeket helyezett a kosarába.
+
+Utófeltételek:
+A rendelés elküldésre kerül, és a fizetési tranzakció folyamatban van.
+
+      +-------------------+        +-------------------+
+      |                   |        |                   |
+      |   Felhasználó    |        |   Rendszer        |
+      |                   |        |                   |
+      +-------------------+        +-------------------+
+                  |                          |
+                  | Bejelentkezés            |
+                  | -----------------------> |
+                  | // Felhasználó bejelentkezik
+                  | // azonosítás céljából
+                  |                          |
+                  |                          |
+                  | Sikeres bejelentkezés   |
+                  | <----------------------- |
+                  | // Bejelentkezési adatok
+                  | // ellenőrzése után
+                  |                          |
+                  |                          |
+                  |                          |
+                  | Termékek böngészése      |
+                  | -----------------------> |
+                  | // Felhasználó lehetővé teszi
+                  | // a termékek böngészését
+                  |                          |
+                  |                          |
+                  | Rendelkezésre álló       |
+                  | termékek listája         |
+                  | <----------------------- |
+                  | // A rendszer visszaadja
+                  | // a rendelkezésre álló
+                  | // termékek listáját
+                  |                          |
+                  |                          |
+                  |                          |
+                  | Termék kiválasztása      |
+                  | -----------------------> |
+                  | // A felhasználó választ
+                  | // egy terméket a listáról
+                  |                          |
+                  |                          |
+                  | Kiválasztott termék     |
+                  | a kosárban van          |
+                  | <----------------------- |
+                  | // A kiválasztott termék
+                  | // hozzáadódik a kosárhoz
+                  |                          |
+                  |                          |
+                  |                          |
+                  | Termék kosárba helyezése |
+                  | -----------------------> |
+                  | // A termék a kosárba kerül
+                  |                          |
+                  |                          |
+                  | Kosár tartalma frissül  |
+                  | <----------------------- |
+                  | // A kosár tartalma
+                  | // frissül a rendszerben
+                  |                          |
+                  |                          |
+                  |                          |
+                  | Rendelés leadása         |
+                  | -----------------------> |
+                  | // A felhasználó leadja
+                  | // a rendelést
+                  |                          |
+                  |                          |
+                  | Rendelés elküldése      |
+                  | <----------------------- |
+                  | // A rendelés továbbítása
+                  | // a rendszertől
+                  |                          |
+                  |                          |
