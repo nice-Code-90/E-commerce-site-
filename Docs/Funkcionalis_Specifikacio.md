@@ -214,3 +214,7 @@ A megfeleltetési táblázatban a következő jelöléseket alkalmazzuk:
 
 - ✓: Az adott funkcionalitás teljes mértékben lefedi a követelményt.
 - -: Az adott funkcionalitás nem kapcsolódik a követelményhez.
+
+### 8. Képernyőterv
+
+![Képernyőterv](/Abrak/plan.png)
