@@ -27,28 +27,73 @@ Az új rendszernek automatizálnia kell a termékfeltöltést, a rendelések kez
 ![Igényelt üzleti folyamatok](/Abrak/igenyeltuzleti.png)
 
 ### 6. Követelménylista:
+
 #### Felhasználói Interfész Követelményei:
 
 ### Követelménylista
 
-| Modul         | ID | Név                                        | Verzió | Kifejtés                                                                                                                                                                            |
-|---------------|----|--------------------------------------------|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Felhasználói Interfész Követelményei:          |    |                                            |        |                                                                                                                                                                                     |
-|               | 1  | Reszponzív, felhasználóbarát dizájn       | 1.0    | Az oldalnak reszponzívnak kell lennie, és különböző eszközökön és böngészőkben kell megfelelően működnie.                                                                         |
-|               | 2  | Kategóriák és szűrési lehetőségek          | 1.0    | A felhasználóknak könnyen kell tudniuk kategóriák között böngészni és szűrni a termékeket.                                                                                    |
-|               | 3  | Egyszerű vásárlási folyamat és kosárkezelés | 1.0  | A vásárlási folyamatnak egyszerűnek és zökkenőmentesnek kell lennie. A kosárban lévő termékeket könnyen kezelhetően kell tartalmaznia.                   |
-|               | 4  | Felhasználói fiókok kezelése               | 1.0    | Bejelentkezési és regisztrációs lehetőségeknek egyszerűeknek és gyorsnak kell lenniük. A jelszavakat biztonságosan kell tárolni.                         |
-|               | 5  | Adminisztrációs felület termékfeltöltéshez és rendelések kezeléséhez | 1.0 | Az adminisztrátorok számára könnyű termékfeltöltési és rendeléskezelési folyamatok biztosítása.   |
-| Teljesítmény és Biztonság:                   |    |                                            |        |                                                                                                                                                                                     |
-|               | 6  | Gyors betöltési idő és teljesítmény       | 1.0    | A weboldalnak gyorsan kell betöltenie és reszponzívnak kell lennie, különböző eszközökön és böngészőkben.                                                               |
-|               | 7  | SSL titkosítás                            | 1.0    | Az SSL titkosításnak biztosítania kell a biztonságos adatátvitelt a weboldalon.                                                                                                     |
-|               | 8  | Felhasználói adatok biztonságos tárolása és kezelése | 1.0 | A felhasználói adatokat biztonságosan kell tárolni és kezelni, megfelelve az adatvédelmi szabályozásoknak.             |
-| Funkcionalitás:                              |    |                                            |        |                                                                                                                                                                                     |
-|               | 9  | Automatikus termékfeltöltési lehetőség CSV-fájlokból | 1.0  | Az adminisztrátoroknak lehetőséget kell biztosítani a termékfeltöltésre CSV-fájlokból.                               |
-|               | 10 | Kosár mentése és visszatöltése a felhasználó fiókjában | 1.0  | A felhasználók kosárban lévő tételeinek mentése és visszatöltése.                                      |
-|               | 11 | Készletek és rendelések kezelése           | 1.0    | Az adminisztrátoroknak egyszerűen kell tudniuk kezelni a készleteket és rendeléseket.                               |
-|               | 12 | Fizetési átjáró integrációk                | 1.0    | A weboldalon különböző fizetési átjáróknak kell integrálódniuk, például bankkártya, PayPal stb.                   |
-|               | 13 | Rendelési visszaigazolás és követési információk | 1.0 | A felhasználóknak rendelési visszaigazolást kell kapniuk, és követniük kell a rendelésük állapotát.             |
-| Analitika és Riportok:                       |    |                                            |        |                                                                                                                                                                                     |
-|               | 14 | Részletes eladási és felhasználói viselkedési riportok | 1.0 | A rendszernek lehetővé kell tennie a részletes eladási és felhasználói viselkedési riportok generálását.    |
-|               | 15 | Felhasználói aktivitás nyomon követése és elemzése | 1.0 | A felhasználói aktivitás nyomon követése és elemzése segíti az oldal optimalizálását és a felhasználói élmény javítását. |
+| Modul                                 | ID  | Név                                                                  | Verzió | Kifejtés                                                                                                                               |
+| ------------------------------------- | --- | -------------------------------------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Felhasználói Interfész Követelményei: |     |                                                                      |        |                                                                                                                                        |
+|                                       | 1   | Reszponzív, felhasználóbarát dizájn                                  | 1.0    | Az oldalnak reszponzívnak kell lennie, és különböző eszközökön és böngészőkben kell megfelelően működnie.                              |
+|                                       | 2   | Kategóriák és szűrési lehetőségek                                    | 1.0    | A felhasználóknak könnyen kell tudniuk kategóriák között böngészni és szűrni a termékeket.                                             |
+|                                       | 3   | Egyszerű vásárlási folyamat és kosárkezelés                          | 1.0    | A vásárlási folyamatnak egyszerűnek és zökkenőmentesnek kell lennie. A kosárban lévő termékeket könnyen kezelhetően kell tartalmaznia. |
+|                                       | 4   | Felhasználói fiókok kezelése                                         | 1.0    | Bejelentkezési és regisztrációs lehetőségeknek egyszerűeknek és gyorsnak kell lenniük. A jelszavakat biztonságosan kell tárolni.       |
+|                                       | 5   | Adminisztrációs felület termékfeltöltéshez és rendelések kezeléséhez | 1.0    | Az adminisztrátorok számára könnyű termékfeltöltési és rendeléskezelési folyamatok biztosítása.                                        |
+| Teljesítmény és Biztonság:            |     |                                                                      |        |                                                                                                                                        |
+|                                       | 6   | Gyors betöltési idő és teljesítmény                                  | 1.0    | A weboldalnak gyorsan kell betöltenie és reszponzívnak kell lennie, különböző eszközökön és böngészőkben.                              |
+|                                       | 7   | SSL titkosítás                                                       | 1.0    | Az SSL titkosításnak biztosítania kell a biztonságos adatátvitelt a weboldalon.                                                        |
+|                                       | 8   | Felhasználói adatok biztonságos tárolása és kezelése                 | 1.0    | A felhasználói adatokat biztonságosan kell tárolni és kezelni, megfelelve az adatvédelmi szabályozásoknak.                             |
+| Funkcionalitás:                       |     |                                                                      |        |                                                                                                                                        |
+|                                       | 9   | Automatikus termékfeltöltési lehetőség CSV-fájlokból                 | 1.0    | Az adminisztrátoroknak lehetőséget kell biztosítani a termékfeltöltésre CSV-fájlokból.                                                 |
+|                                       | 10  | Kosár mentése és visszatöltése a felhasználó fiókjában               | 1.0    | A felhasználók kosárban lévő tételeinek mentése és visszatöltése.                                                                      |
+|                                       | 11  | Készletek és rendelések kezelése                                     | 1.0    | Az adminisztrátoroknak egyszerűen kell tudniuk kezelni a készleteket és rendeléseket.                                                  |
+|                                       | 12  | Fizetési átjáró integrációk                                          | 1.0    | A weboldalon különböző fizetési átjáróknak kell integrálódniuk, például bankkártya, PayPal stb.                                        |
+|                                       | 13  | Rendelési visszaigazolás és követési információk                     | 1.0    | A felhasználóknak rendelési visszaigazolást kell kapniuk, és követniük kell a rendelésük állapotát.                                    |
+| Analitika és Riportok:                |     |                                                                      |        |                                                                                                                                        |
+|                                       | 14  | Részletes eladási és felhasználói viselkedési riportok               | 1.0    | A rendszernek lehetővé kell tennie a részletes eladási és felhasználói viselkedési riportok generálását.                               |
+|                                       | 15  | Felhasználói aktivitás nyomon követése és elemzése                   | 1.0    | A felhasználói aktivitás nyomon követése és elemzése segíti az oldal optimalizálását és a felhasználói élmény javítását.               |
+
+### 7. Fogalomszótár
+
+# Termék Neve: E-Commerce Express
+
+## Fogalomszótár
+
+1. **E-Commerce Express (ECE)**: Az e-commerce szolgáltatás neve, amelynek célja egy modern és felhasználóbarát online kiskereskedelmi platform kifejlesztése.
+
+2. **Felhasználói Élmény (UX)**: A felhasználók weboldalhasználati élményére vonatkozó fogalom, amely magában foglalja az oldal könnyű kezelhetőségét, az esztétikus dizájnt, a gyors betöltési időt és a felhasználóbarát funkciókat.
+
+3. **Adminisztrációs Felület**: Az olyan felület, amely lehetővé teszi az adminisztrátoroknak a termékek, rendelések és felhasználói adatok kezelését, valamint az elemzésüket.
+
+4. **GDPR (General Data Protection Regulation)**: Az Európai Unió által bevezetett általános adatvédelmi rendelet, amely szabályozza az egyének személyes adatainak védelmét.
+
+5. **Fogyasztóvédelmi Törvények**: Olyan jogszabályok és rendeletek, amelyek a fogyasztók védelmét és jogait szolgálják az e-commerce területén.
+
+6. **Elektronikus Kereskedelmi Irányelvek**: Az elektronikus kereskedelmi területen alkalmazandó irányelvek és előírások, amelyeket az e-commerce platformnak be kell tartania.
+
+7. **OWASP (Open Web Application Security Project)**: Egy szervezet és közösség, amely webalkalmazás-biztonsági szabványokat és irányelveket fejleszt ki a weboldalak biztonságának javítására.
+
+8. **Termékfeltöltés**: Az adminisztrátoroknak biztosított funkció, amely lehetővé teszi új termékek hozzáadását az e-commerce platformhoz.
+
+9. **Rendelések Kezelése**: Az adminisztrátoroknak biztosított lehetőség, amely lehetővé teszi a rendelések nyomon követését és kezelését, például szállítás és számlázás.
+
+10. **Fizetések Feldolgozása**: Az e-commerce platformon elérhető fizetési módok elfogadása és a fizetések feldolgozása, például bankkártya, PayPal stb.
+
+11. **Felhasználói Fiókok Kezelése**: A felhasználók számára biztosított funkcionalitás, amely lehetővé teszi a bejelentkezést, regisztrációt, jelszókezelést és fiókbeállításokat.
+
+12. **Kosárkezelés**: A felhasználók által összeállított kosárban lévő termékek kezelése, például hozzáadás, eltávolítás és mentés.
+
+13. **Automatikus Termékfeltöltési Lehetőség**: Az adminisztrátoroknak biztosított eszköz, amely lehetővé teszi a termékek automatikus feltöltését CSV-fájlokból.
+
+14. **Készletek Kezelése**: Az adminisztrátoroknak biztosított funkcionalitás, amely lehetővé teszi a termékkészletek nyomon követését és frissítését.
+
+15. **Fizetési Átjáró Integrációk**: Az olyan szolgáltatások, amelyek lehetővé teszik különböző fizetési módok elfogadását, például bankkártya, PayPal stb.
+
+16. **Rendelési Visszaigazolás**: Az ügyfeleknek küldött automatikus visszaigazoló e-mail a rendelés elküldése után.
+
+17. **Követési Információk**: Az ügyfelek rendeléseinek aktuális állapotát és szállítási információit tartalmazó funkcionalitás.
+
+18. **Analitika és Riportok**: A felhasználói aktivitás és értékesítési adatok részletes elemzésére és riportok létrehozására szolgáló eszközök.
+
+19. **Felhasználói Aktivitás Nyomon Követése és Elemzése**: Az ügyfelek weboldalhasználatának és viselkedésének elemzése a felhasználói élmény és a konverziók javítása érdekében.
