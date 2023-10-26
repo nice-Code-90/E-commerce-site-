@@ -54,11 +54,41 @@ Az új rendszernek automatizálnia kell a termékfeltöltést, a rendelések kez
 |                                       | 14  | Részletes eladási és felhasználói viselkedési riportok               | 1.0    | A rendszernek lehetővé kell tennie a részletes eladási és felhasználói viselkedési riportok generálását.                               |
 |                                       | 15  | Felhasználói aktivitás nyomon követése és elemzése                   | 1.0    | A felhasználói aktivitás nyomon követése és elemzése segíti az oldal optimalizálását és a felhasználói élmény javítását.               |
 
-### 7. Fogalomszótár
+### 7. Irányított és Szabad Szöveges Riportok Szövege:
 
-# Termék Neve: E-Commerce Express
+### Felhasználói élmény riport
 
-## Fogalomszótár
+#### 1.1 Vásárlói élményértékelés
+
+A felhasználói élmény mindenekfelett van. Az új rendszernek lehetővé kell tennie számunkra, hogy könnyen böngészhessünk és találjunk termékeket. Az átlátható kategória- és szűrési lehetőségek sokat segítenek. A vásárlási folyamatnak egyszerűnek és zökkenőmentesnek kell lennie. Az egyes termékek közötti váltásnak gyorsnak és simának kell lennie. Fontos, hogy a weboldal gyorsan töltődjön be, és a mobiltelefonon is könnyen használható legyen.
+
+#### 1.2 Bejelentkezés és Regisztráció
+
+A fiókkezelés is fontos. A bejelentkezés és regisztráció lehetőségeknek egyszerűeknek és gyorsnak kell lenniük. A jelszavak biztonságosan kell tárolni. Ezenkívül jó lenne, ha emlékeztetné a rendszer minket a bejelentkezésre.
+
+### Adminisztrációs felület riport
+
+#### 2.1 Termékfeltöltés és Kezelés
+
+Az adminisztrációs felületnek könnyen kezelhetőnek kell lennie. A termékfeltöltésnek egyszerűnek és gyorsnak kell lennie. Fontos, hogy a képek feltöltése is gördülékenyen menjen. Az árképzési és készletinformációk könnyen szerkeszthetők legyenek.
+
+#### 2.2 Rendeléskezelés
+
+A rendelések kezelése is fontos. Egyszerűen kell látni az új rendeléseket, és könnyen lehessen a szállítási információkat hozzáadni. Fontos, hogy az adminisztrátor könnyen tudjon kommunikálni a vásárlókkal.
+
+### Analitikai riport
+
+#### 3.1 Eladási és Viselkedési Adatok
+
+Az eladási és viselkedési riportok segítenek a vállalkozásunk fejlesztésében. Fontos, hogy láthassuk, mely termékek mennek a legjobban, és melyek kevésbé. Az ügyfelek viselkedésének elemzése is segít abban, hogy jobban megértsük, mire van igényük.
+
+#### 3.2 Felhasználói Aktivitás Nyomonkövetése
+
+A felhasználói aktivitás követése kulcsfontosságú. Meg kell értenünk, hogy a felhasználók hogyan használják a webhelyet. Például, mely oldalak a legnépszerűbbek, és hol hagyják el a weboldalt. Ezek az információk segíthetnek az oldalunk optimalizálásában.
+
+Az említett riportok készítése és a fent említett szempontok figyelembevétele alapján lehetővé teszi, hogy az E-Commerce Express rendszere maximálisan kielégítse a felhasználók igényeit és egy hatékony e-commerce élményt nyújtson.
+
+### 8. Fogalomszótár
 
 1. **E-Commerce Express (ECE)**: Az e-commerce szolgáltatás neve, amelynek célja egy modern és felhasználóbarát online kiskereskedelmi platform kifejlesztése.
 
