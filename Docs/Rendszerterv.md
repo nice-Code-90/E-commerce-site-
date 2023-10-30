@@ -10,3 +10,5 @@ Az E-Commerce weboldal célja a következőkkel összefoglalható:
 
 - Felhasználói cél: A weboldalnak egy felhasználóbarát és könnyen navigálható felületet kell kínálnia a vásárlók számára. Az ügyfeleknek kényelmesen kell böngészniük a termékek között, és egyszerűen vásárolniuk kell. A weboldalnak biztosítania kell a biztonságos tranzakciókat és a vásárlói adatok védelmét.
 
+- Marketing cél: A weboldalnak lehetőséget kell biztosítania a termékek és szolgáltatások hatékony promóciójára, például akciók, kuponok és hírlevélkampányok révén. A weboldalnak segítenie kell a vállalkozást az online marketing eszközök hatékony kihasználásában.
+
