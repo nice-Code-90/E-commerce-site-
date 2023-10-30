@@ -43,3 +43,18 @@ Az E-Commerce weboldal célja a következőkkel összefoglalható:
     2. [Pongó Petra]
     3. [Takács Zoltán]
     4. [Szabó Patrik]
+
+### Projektmunkások és Felelősségeik
+
+- **Frontend fejlesztők:**
+
+  - Az alkalmazás felhasználói felületének kialakítása és fejlesztése.
+  - Frontend fejlesztők nevei:
+    1. Pongó Petra
+    2. Mázik Milán
+
+- **Backend fejlesztők:**
+  - Az alkalmazás háttérlogikájának fejlesztése és adatkezelése.
+  - Backend fejlesztők nevei:
+    1. Takács Zoltán
+    2. Szabó Patrik
