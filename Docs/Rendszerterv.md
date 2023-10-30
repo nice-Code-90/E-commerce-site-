@@ -25,3 +25,13 @@ Az E-Commerce weboldal célja a következőkkel összefoglalható:
   - Felelős a projekt koordinációjáért és a határidők betartásáért.
   - Irányítja a fejlesztők és tesztelők munkáját.
   - Projektvezető neve: [Mázik Milán]
+
+- **Fejlesztők:**
+
+  - Az alkalmazás fejlesztéséért és karbantartásáért felelős személyek.
+  - Frontend és backend fejlesztők egyaránt.
+  - Fejlesztők nevei:
+    1. Pongó Petra - Frontend fejlesztő
+    2. Mázik Milán - Frontend fejlesztő
+    3. Takács Zoltán - Backend fejlesztő
+    4. Szabó Patrik - Backend fejlesztő
