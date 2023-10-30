@@ -109,78 +109,7 @@ A felhasználó be van jelentkezve, és termékeket helyezett a kosarába.
 Utófeltételek:
 A rendelés elküldésre kerül, és a fizetési tranzakció folyamatban van.
 
-      +-------------------+        +-------------------+
-      |                   |        |                   |
-      |   Felhasználó    |        |   Rendszer        |
-      |                   |        |                   |
-      +-------------------+        +-------------------+
-                  |                          |
-                  | Bejelentkezés            |
-                  | -----------------------> |
-                  | // Felhasználó bejelentkezik
-                  | // azonosítás céljából
-                  |                          |
-                  |                          |
-                  | Sikeres bejelentkezés   |
-                  | <----------------------- |
-                  | // Bejelentkezési adatok
-                  | // ellenőrzése után
-                  |                          |
-                  |                          |
-                  |                          |
-                  | Termékek böngészése      |
-                  | -----------------------> |
-                  | // Felhasználó lehetővé teszi
-                  | // a termékek böngészését
-                  |                          |
-                  |                          |
-                  | Rendelkezésre álló       |
-                  | termékek listája         |
-                  | <----------------------- |
-                  | // A rendszer visszaadja
-                  | // a rendelkezésre álló
-                  | // termékek listáját
-                  |                          |
-                  |                          |
-                  |                          |
-                  | Termék kiválasztása      |
-                  | -----------------------> |
-                  | // A felhasználó választ
-                  | // egy terméket a listáról
-                  |                          |
-                  |                          |
-                  | Kiválasztott termék     |
-                  | a kosárban van          |
-                  | <----------------------- |
-                  | // A kiválasztott termék
-                  | // hozzáadódik a kosárhoz
-                  |                          |
-                  |                          |
-                  |                          |
-                  | Termék kosárba helyezése |
-                  | -----------------------> |
-                  | // A termék a kosárba kerül
-                  |                          |
-                  |                          |
-                  | Kosár tartalma frissül  |
-                  | <----------------------- |
-                  | // A kosár tartalma
-                  | // frissül a rendszerben
-                  |                          |
-                  |                          |
-                  |                          |
-                  | Rendelés leadása         |
-                  | -----------------------> |
-                  | // A felhasználó leadja
-                  | // a rendelést
-                  |                          |
-                  |                          |
-                  | Rendelés elküldése      |
-                  | <----------------------- |
-                  | // A rendelés továbbítása
-                  | // a rendszertől
-                  |                          |
-                  |                          |
+![Igényelt üzleti folyamatok](/Abrak/funkspec_hasznalatiesetek.png)
 
 ### 7. Megfeleltetés
 
