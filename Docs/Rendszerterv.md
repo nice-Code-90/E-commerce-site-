@@ -15,3 +15,13 @@ Az E-Commerce weboldal célja a következőkkel összefoglalható:
 - Adatkezelés és elemzés: A weboldalnak lehetőséget kell biztosítania az üzleti adatok hatékony kezelésére és elemzésére. Ezenkívül szükséges az ügyféladatainak biztonságos tárolása és kezelése, valamint az üzleti teljesítmény monitorozása és optimalizálása.
 
 - Skálázhatóság: A rendszernek lehetőséget kell biztosítania a jövőbeni bővítésre és skálázhatóságra, hogy alkalmazkodjon az üzleti igények változásaihoz.
+
+## II. Projektterv
+
+### Projektszerepkörök és Felelősségek
+
+- **Projektvezető:**
+
+  - Felelős a projekt koordinációjáért és a határidők betartásáért.
+  - Irányítja a fejlesztők és tesztelők munkáját.
+  - Projektvezető neve: [Mázik Milán]
