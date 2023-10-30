@@ -16,7 +16,7 @@ Az E-Commerce Express projekt során szorosan figyelembe vesszük az aktuális e
 
 A jelenlegi üzleti folyamatok közé tartozik a termékfeltöltés, a rendelések kezelése, a fizetések feldolgozása és a felhasználói fiókok kezelése. Ezek a folyamatok jelenleg manuális műveletek, amelyek sok időt vesznek igénybe és emellett hajlamosak a hibákra.
 
-![Jelenlegi üzleti folyamatok](/Abrak/jelenlegiuzleti.png)
+![Jelenlegi üzleti folyamatok](/Abrak/funkspec_jelenlegiuzleti.png)
 
 ### 5. Igényelt Üzleti Folyamatok Modellje:
 
