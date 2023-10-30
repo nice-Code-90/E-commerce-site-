@@ -13,3 +13,5 @@ Az E-Commerce weboldal célja a következőkkel összefoglalható:
 - Marketing cél: A weboldalnak lehetőséget kell biztosítania a termékek és szolgáltatások hatékony promóciójára, például akciók, kuponok és hírlevélkampányok révén. A weboldalnak segítenie kell a vállalkozást az online marketing eszközök hatékony kihasználásában.
 
 - Adatkezelés és elemzés: A weboldalnak lehetőséget kell biztosítania az üzleti adatok hatékony kezelésére és elemzésére. Ezenkívül szükséges az ügyféladatainak biztonságos tárolása és kezelése, valamint az üzleti teljesítmény monitorozása és optimalizálása.
+
+- Skálázhatóság: A rendszernek lehetőséget kell biztosítania a jövőbeni bővítésre és skálázhatóságra, hogy alkalmazkodjon az üzleti igények változásaihoz.
