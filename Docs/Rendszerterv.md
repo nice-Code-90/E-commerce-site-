@@ -58,3 +58,15 @@ Az E-Commerce weboldal célja a következőkkel összefoglalható:
   - Backend fejlesztők nevei:
     1. Takács Zoltán
     2. Szabó Patrik
+
+### Ütemterv
+
+A projekt ütemtervét a következő mérföldkövek határozzák meg:
+
+1. **Projektterv elkészítése** - 2023.10.10.
+2.  **Funkcionális specifikáció készítése** - 2023.10.21.
+3.  **Követelményspecifikáció készítése** - 2023.10.22.
+4.  **Rendszerterv készítése** - 2023.10.31.
+5.  **Fejlesztési fázis kezdete** - 2023.11.06.
+6.  **Alkalmazás tesztelése** - 2023.11.16
+7.  **Alkalmazás kiadása** - 2023.11.23
