@@ -35,3 +35,11 @@ Az E-Commerce weboldal célja a következőkkel összefoglalható:
     2. Mázik Milán - Frontend fejlesztő
     3. Takács Zoltán - Backend fejlesztő
     4. Szabó Patrik - Backend fejlesztő
+
+- **Tesztelők:**
+  - Az alkalmazás teszteléséért és hibák felderítéséért felelős személyek.
+  - Tesztelők nevei:
+    1. [Mázik Milán]
+    2. [Pongó Petra]
+    3. [Takács Zoltán]
+    4. [Szabó Patrik]
