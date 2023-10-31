@@ -160,6 +160,24 @@ A megfeleltetési táblázatban a következő jelöléseket alkalmazzuk:
 **Előfeltételek:**
 - A felhasználó már be van jelentkezve az E-Commerce Express weboldalra.
 
+**Folyamat:**
+1. A felhasználó bejelentkezik az E-Commerce Express weboldalra a felhasználói fiókjával.
+2. A felhasználó a weboldal főoldalára érkezik, ahol a legújabb és legnépszerűbb termékeket láthatja.
+3. A felhasználó böngészi a kategóriákat, és megtalálja azt a terméket, amit meg szeretne vásárolni.
+4. A felhasználó rákattint a kiválasztott termék képére vagy címére, hogy megtekintse a termék részleteit.
+5. A termék oldalán a felhasználó részletes információkat talál a termékről, beleértve az árat, leírást, és képeket.
+6. A felhasználó kiválasztja a termék mennyiségét és esetlegesen más opciókat (pl. méret, szín) a termék oldalán.
+7. A felhasználó hozzáadja a terméket a kosarához, majd folytatja a böngészést, vagy a kosár oldalra navigál.
+8. A kosár oldalon a felhasználó ellenőrzi a kosár tartalmát, és szükség esetén módosításokat végez (termékek eltávolítása vagy mennyiség módosítása).
+9. A felhasználó kiválasztja a szállítási és fizetési lehetőségeket.
+10. A felhasználó leadja a rendelést, és a rendszer továbbítja a fizetési tranzakciót a kiválasztott fizetési átjáró felé.
+11. A felhasználó megkapja a rendelési visszaigazolást, amely tartalmazza a rendelés részleteit és a várható szállítási információkat.
+12. A felhasználó követheti a rendelését az "Rendelés nyomon követése" funkció segítségével, amely tájékoztatja a rendelés állapotáról (feldolgozás alatt, szállítás alatt, stb.).
+13. A vásárlás befejezése után a felhasználó visszatér a weboldal főoldalára vagy folytathat más vásárlásokat.
+
+**Utófeltételek:**
+- A felhasználó sikeresen megvásárolta a terméket és megkapta a rendelési visszaigazolást.
+- A rendelés a megfelelő szállítási címre érkezik a megadott időben.
 
 ### 10. Fogalomszótár
 
