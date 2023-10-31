@@ -131,3 +131,20 @@ A felhasználók számára a termékek böngészését és keresését.
 - **Kosárkezelés:**
 
 - Felhasználóknak lehetőségük kell kapni a kosárba helyezésre, a kosár tartalmának módosítására és a vásárlás véglegesítésére.
+
+- **Rendeléskezelés:**
+
+- A weboldalnak rögzítenie kell a vásárlásokat, beleértve a termékeket, árakat és a vásárlók adatait.
+Rendelési visszaigazolás és értesítések generálása.
+
+- **Felhasználói fiókok és profilok:**
+
+- A felhasználóknak lehetőséget kell adni saját adatok módosítására, vásárlási előzmények megtekintésére és a profiljuk testreszabására.
+
+- **Készletkezelés:**
+
+- A weboldalnak figyelemmel kell kísérnie a termékek készletét és frissítenie kell azt a vásárlások során.
+
+- **Marketing és promóció:**
+
+- A weboldalnak lehetőséget kell biztosítania kuponkódok és promóciók használatára.
