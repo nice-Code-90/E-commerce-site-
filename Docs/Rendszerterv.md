@@ -148,3 +148,16 @@ Rendelési visszaigazolás és értesítések generálása.
 - **Marketing és promóció:**
 
 - A weboldalnak lehetőséget kell biztosítania kuponkódok és promóciók használatára.
+
+### Nem funkcionális követelmények:
+
+- **Teljesítmény:**
+
+- A weboldalnak gyors és megbízható teljesítményt kell nyújtania még nagy terhelés esetén is.
+Biztonság:
+
+- A vásárlói adatoknak szigorúan biztonságosnak kell lenniük. A weboldalnak megfelelő adatvédelmi intézkedéseket kell alkalmaznia.
+Felhasználói élmény:
+
+- Az oldalnak felhasználóbarátnak kell lennie, könnyen navigálhatónak és mobilbarátnak kell lennie.
+
