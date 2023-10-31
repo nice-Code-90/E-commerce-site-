@@ -111,3 +111,9 @@ A projekt ütemtervét a következő mérföldkövek határozzák meg:
    - A vásárlók értékelhetik a vásárlást és hozzászólásokat írhatnak a termékekhez, amelyek segítenek a többi vásárlónak a döntésben.
 11. **Adatok elemzése és fejlesztés**
    - Az e-kereskedő figyeli az eladásokat és az ügyfélviselkedést, majd ezek alapján fejleszti a weboldalát és a kínálatát.
+
+## Követelmények
+
+## IV. Követelmények
+
+### Funkcionális Követelmények
