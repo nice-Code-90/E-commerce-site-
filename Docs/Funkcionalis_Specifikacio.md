@@ -147,3 +147,43 @@ A megfeleltetési táblázatban a következő jelöléseket alkalmazzuk:
 ### 8. Képernyőterv
 
 ![Képernyőterv](/Abrak/plan.png)
+
+### 9. Fogalomszótár
+
+1. **E-Commerce Express (ECE)**: Az e-commerce szolgáltatás neve, amelynek célja egy modern és felhasználóbarát online kiskereskedelmi platform kifejlesztése.
+
+2. **Felhasználói Élmény (UX)**: A felhasználók weboldalhasználati élményére vonatkozó fogalom, amely magában foglalja az oldal könnyű kezelhetőségét, az esztétikus dizájnt, a gyors betöltési időt és a felhasználóbarát funkciókat.
+
+3. **Adminisztrációs Felület**: Az olyan felület, amely lehetővé teszi az adminisztrátoroknak a termékek, rendelések és felhasználói adatok kezelését, valamint az elemzésüket.
+
+4. **GDPR (General Data Protection Regulation)**: Az Európai Unió által bevezetett általános adatvédelmi rendelet, amely szabályozza az egyének személyes adatainak védelmét.
+
+5. **Fogyasztóvédelmi Törvények**: Olyan jogszabályok és rendeletek, amelyek a fogyasztók védelmét és jogait szolgálják az e-commerce területén.
+
+6. **Elektronikus Kereskedelmi Irányelvek**: Az elektronikus kereskedelmi területen alkalmazandó irányelvek és előírások, amelyeket az e-commerce platformnak be kell tartania.
+
+7. **OWASP (Open Web Application Security Project)**: Egy szervezet és közösség, amely webalkalmazás-biztonsági szabványokat és irányelveket fejleszt ki a weboldalak biztonságának javítására.
+
+8. **Termékfeltöltés**: Az adminisztrátoroknak biztosított funkció, amely lehetővé teszi új termékek hozzáadását az e-commerce platformhoz.
+
+9. **Rendelések Kezelése**: Az adminisztrátoroknak biztosított lehetőség, amely lehetővé teszi a rendelések nyomon követését és kezelését, például szállítás és számlázás.
+
+10. **Fizetések Feldolgozása**: Az e-commerce platformon elérhető fizetési módok elfogadása és a fizetések feldolgozása, például bankkártya, PayPal stb.
+
+11. **Felhasználói Fiókok Kezelése**: A felhasználók számára biztosított funkcionalitás, amely lehetővé teszi a bejelentkezést, regisztrációt, jelszókezelést és fiókbeállításokat.
+
+12. **Kosárkezelés**: A felhasználók által összeállított kosárban lévő termékek kezelése, például hozzáadás, eltávolítás és mentés.
+
+13. **Automatikus Termékfeltöltési Lehetőség**: Az adminisztrátoroknak biztosított eszköz, amely lehetővé teszi a termékek automatikus feltöltését CSV-fájlokból.
+
+14. **Készletek Kezelése**: Az adminisztrátoroknak biztosított funkcionalitás, amely lehetővé teszi a termékkészletek nyomon követését és frissítését.
+
+15. **Fizetési Átjáró Integrációk**: Az olyan szolgáltatások, amelyek lehetővé teszik különböző fizetési módok elfogadását, például bankkártya, PayPal stb.
+
+16. **Rendelési Visszaigazolás**: Az ügyfeleknek küldött automatikus visszaigazoló e-mail a rendelés elküldése után.
+
+17. **Követési Információk**: Az ügyfelek rendeléseinek aktuális állapotát és szállítási információit tartalmazó funkcionalitás.
+
+18. **Analitika és Riportok**: A felhasználói aktivitás és értékesítési adatok részletes elemzésére és riportok létrehozására szolgáló eszközök.
+
+19. **Felhasználói Aktivitás Nyomon Követése és Elemzése**: Az ügyfelek weboldalhasználatának és viselkedésének elemzése a felhasználói élmény és a konverziók javítása érdekében.
