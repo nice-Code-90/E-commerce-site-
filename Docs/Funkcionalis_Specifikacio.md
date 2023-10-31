@@ -148,7 +148,13 @@ A megfeleltetési táblázatban a következő jelöléseket alkalmazzuk:
 
 ![Képernyőterv](/Abrak/plan.png)
 
-### 9. Fogalomszótár
+### 9. Forgatókönyv: Termék Vásárlás
+
+**Szereplők:**
+- Felhasználó (Ügyfél)
+- E-Commerce Express weboldal
+
+### 10. Fogalomszótár
 
 1. **E-Commerce Express (ECE)**: Az e-commerce szolgáltatás neve, amelynek célja egy modern és felhasználóbarát online kiskereskedelmi platform kifejlesztése.
 
