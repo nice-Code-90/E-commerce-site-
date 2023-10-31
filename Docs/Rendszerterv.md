@@ -104,3 +104,6 @@ A projekt ütemtervét a következő mérföldkövek határozzák meg:
    - A termékeket elkészítik a szállításra, és elküldik a vásárlónak.
 8. **Szállítás és nyomon követés**
    - A vásárlók nyomon követhetik a szállítás állapotát, és értesítéseket kapnak a csomag helyzetéről.
+9. **Visszatérítés és garancia**
+   - Ha a vásárlók elégedetlenek a termékkel, lehetőségük van visszaküldeni vagy cserélni azt.
+   - Az e-kereskedőnek gondoskodnia kell a garanciális ügyintézésről.
