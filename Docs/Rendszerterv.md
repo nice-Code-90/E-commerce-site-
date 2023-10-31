@@ -122,3 +122,8 @@ A projekt ütemtervét a következő mérföldkövek határozzák meg:
 
 - A weboldalnak lehetővé kell tennie a felhasználók regisztrációját, beleértve a nevet, e-mail címet és jelszót.
 Bejelentkezési folyamat a felhasználók számára, hogy hozzáférjenek saját fiókjukhoz.
+
+- **Termékkezelés:**
+
+- A weboldalnak lehetővé kell tennie a termékek hozzáadását, módosítását és törlését az adminisztrátorok számára.
+A felhasználók számára a termékek böngészését és keresését.
