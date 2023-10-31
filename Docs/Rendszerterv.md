@@ -118,40 +118,40 @@ A projekt ütemtervét a következő mérföldkövek határozzák meg:
 
 ### Funkcionális Követelmények
 
-- **Felhasználói regisztráció és bejelentkezés:**
+**Felhasználói regisztráció és bejelentkezés:**
 
 - A weboldalnak lehetővé kell tennie a felhasználók regisztrációját, beleértve a nevet, e-mail címet és jelszót.
 Bejelentkezési folyamat a felhasználók számára, hogy hozzáférjenek saját fiókjukhoz.
 
-- **Termékkezelés:**
+**Termékkezelés:**
 
 - A weboldalnak lehetővé kell tennie a termékek hozzáadását, módosítását és törlését az adminisztrátorok számára.
 A felhasználók számára a termékek böngészését és keresését.
 
-- **Kosárkezelés:**
+**Kosárkezelés:**
 
 - Felhasználóknak lehetőségük kell kapni a kosárba helyezésre, a kosár tartalmának módosítására és a vásárlás véglegesítésére.
 
-- **Rendeléskezelés:**
+**Rendeléskezelés:**
 
 - A weboldalnak rögzítenie kell a vásárlásokat, beleértve a termékeket, árakat és a vásárlók adatait.
 Rendelési visszaigazolás és értesítések generálása.
 
-- **Felhasználói fiókok és profilok:**
+**Felhasználói fiókok és profilok:**
 
 - A felhasználóknak lehetőséget kell adni saját adatok módosítására, vásárlási előzmények megtekintésére és a profiljuk testreszabására.
 
-- **Készletkezelés:**
+**Készletkezelés:**
 
 - A weboldalnak figyelemmel kell kísérnie a termékek készletét és frissítenie kell azt a vásárlások során.
 
-- **Marketing és promóció:**
+**Marketing és promóció:**
 
 - A weboldalnak lehetőséget kell biztosítania kuponkódok és promóciók használatára.
 
 ### Nem funkcionális követelmények:
 
-- **Teljesítmény:**
+**Teljesítmény:**
 
 - A weboldalnak gyors és megbízható teljesítményt kell nyújtania még nagy terhelés esetén is.
 Biztonság:
@@ -161,18 +161,18 @@ Felhasználói élmény:
 
 - Az oldalnak felhasználóbarátnak kell lennie, könnyen navigálhatónak és mobilbarátnak kell lennie.
 
-- **Skálázhatóság:**
+**Skálázhatóság:**
 
 - A rendszernek skálázhatónak kell lennie annak érdekében, hogy megnövekedett forgalom esetén is képes legyen megfelelően működni.
 Kompatibilitás:
 
 - A weboldalnak különböző böngészőkkel és operációs rendszerekkel kompatibilisnek kell lennie.
 
-- **Rendelkezésre állás:**
+**Rendelkezésre állás:**
 
 - A weboldalnak magas rendelkezésre állásúnak kell lennie, minimális leállásokkal.
 
-- **Teljesítménymérés és elemzés:**
+**Teljesítménymérés és elemzés:**
 
 -A rendszernek lehetőséget kell biztosítania a teljesítménymérésre és az adatok elemzésére a fejlesztések és optimalizálások számára.
 
