@@ -167,3 +167,12 @@ Felhasználói élmény:
 Kompatibilitás:
 
 - A weboldalnak különböző böngészőkkel és operációs rendszerekkel kompatibilisnek kell lennie.
+
+- **Rendelkezésre állás:**
+
+- A weboldalnak magas rendelkezésre állásúnak kell lennie, minimális leállásokkal.
+
+- **Teljesítménymérés és elemzés:**
+
+-A rendszernek lehetőséget kell biztosítania a teljesítménymérésre és az adatok elemzésére a fejlesztések és optimalizálások számára.
+
