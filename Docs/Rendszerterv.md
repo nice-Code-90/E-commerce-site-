@@ -102,4 +102,5 @@ A projekt ütemtervét a következő mérföldkövek határozzák meg:
 7. **Feldolgozás és szállítás**
    - Az e-kereskedő fogadja a megrendelést, ellenőrzi a fizetést, majd feldolgozza a megrendelést.
    - A termékeket elkészítik a szállításra, és elküldik a vásárlónak.
-
+8. **Szállítás és nyomon követés**
+   - A vásárlók nyomon követhetik a szállítás állapotát, és értesítéseket kapnak a csomag helyzetéről.
