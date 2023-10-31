@@ -96,4 +96,6 @@ A projekt ütemtervét a következő mérföldkövek határozzák meg:
 5. **Rendelés leadása**
    - A vásárlók a kosarában lévő termékeket megrendelik.
    - Az adatokat megadva, a vásárlók megadják a szállítási címet és fizetési módjukat.
-
+6. **Fizetési folyamat**
+   - A vásárlók választhatnak különböző fizetési módok közül, például bankkártya, PayPal, átutalás stb.
+   - A fizetési adatokat biztonságosan megadják.
