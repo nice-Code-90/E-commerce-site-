@@ -70,3 +70,15 @@ A projekt ütemtervét a következő mérföldkövek határozzák meg:
 5.  **Fejlesztési fázis kezdete** - 2023.11.06.
 6.  **Alkalmazás tesztelése** - 2023.11.16
 7.  **Alkalmazás kiadása** - 2023.11.23
+
+## III. Üzleti Folyamatok Modellje
+
+### Üzleti Szereplők
+
+- **Vásárlók**
+- **Eladók vagy Kiskereskedők**
+- **E-commerce platform szolgáltatók**
+- **Fizetési szolgáltatók**
+- **Logisztikai szolgáltatók**
+- **Szállítók és beszállítók**
+       
