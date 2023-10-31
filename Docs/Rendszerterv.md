@@ -81,4 +81,10 @@ A projekt ütemtervét a következő mérföldkövek határozzák meg:
 - **Fizetési szolgáltatók**
 - **Logisztikai szolgáltatók**
 - **Szállítók és beszállítók**
+
+### Üzleti Folyamatok
+
+1. **Termék kiválasztás és feltöltés**
+   - Az e-kereskedő kiválasztja a kínálatában szereplő termékeket.
+   - A termékeket a weboldalra feltölti, hozzárendel szükséges információkat (név, leírás, ár, képek stb.).
        
