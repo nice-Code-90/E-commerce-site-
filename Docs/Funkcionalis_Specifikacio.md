@@ -179,7 +179,7 @@ A megfeleltetési táblázatban a következő jelöléseket alkalmazzuk:
 - A felhasználó sikeresen megvásárolta a terméket és megkapta a rendelési visszaigazolást.
 - A rendelés a megfelelő szállítási címre érkezik a megadott időben.
 
-![Forgatókönyv](/Abrak/orgatokonyv.png)
+![Forgatókönyv](/Abrak/forgatokonyv.png)
 
 ### 10. Fogalomszótár
 
