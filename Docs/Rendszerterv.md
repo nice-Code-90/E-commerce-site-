@@ -87,7 +87,8 @@ A projekt ütemtervét a következő mérföldkövek határozzák meg:
 1. **Termék kiválasztás és feltöltés**
    - Az e-kereskedő kiválasztja a kínálatában szereplő termékeket.
    - A termékeket a weboldalra feltölti, hozzárendel szükséges információkat (név, leírás, ár, képek stb.).
-
 2. **Weboldal kialakítása**
    - Az e-kereskedő egy felhasználóbarát weboldalt készít, amely lehetővé teszi a vásárlók számára a termékek könnyű böngészését és megrendelését.
-       
+3. **Vásárlói regisztráció**
+   - A vásárlók regisztrálják magukat a weboldalon, vagy lehetőséget kapnak vendégként is vásárolni.
+
