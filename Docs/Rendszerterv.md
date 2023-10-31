@@ -93,4 +93,7 @@ A projekt ütemtervét a következő mérföldkövek határozzák meg:
    - A vásárlók regisztrálják magukat a weboldalon, vagy lehetőséget kapnak vendégként is vásárolni.
 4. **Kosárba helyezés**
    - A vásárlók böngészik a weboldalt, kiválasztják a termékeket, és ezeket a virtuális kosárba helyezik.
+5. **Rendelés leadása**
+   - A vásárlók a kosarában lévő termékeket megrendelik.
+   - Az adatokat megadva, a vásárlók megadják a szállítási címet és fizetési módjukat.
 
