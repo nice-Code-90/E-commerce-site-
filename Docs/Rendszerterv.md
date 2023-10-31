@@ -99,3 +99,7 @@ A projekt ütemtervét a következő mérföldkövek határozzák meg:
 6. **Fizetési folyamat**
    - A vásárlók választhatnak különböző fizetési módok közül, például bankkártya, PayPal, átutalás stb.
    - A fizetési adatokat biztonságosan megadják.
+7. **Feldolgozás és szállítás**
+   - Az e-kereskedő fogadja a megrendelést, ellenőrzi a fizetést, majd feldolgozza a megrendelést.
+   - A termékeket elkészítik a szállításra, és elküldik a vásárlónak.
+
