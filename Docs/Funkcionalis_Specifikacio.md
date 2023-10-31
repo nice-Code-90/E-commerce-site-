@@ -154,6 +154,13 @@ A megfeleltetési táblázatban a következő jelöléseket alkalmazzuk:
 - Felhasználó (Ügyfél)
 - E-Commerce Express weboldal
 
+**Főcél:**
+- A felhasználó kiválaszt és megvásárol egy terméket az E-Commerce Express weboldalon.
+
+**Előfeltételek:**
+- A felhasználó már be van jelentkezve az E-Commerce Express weboldalra.
+
+
 ### 10. Fogalomszótár
 
 1. **E-Commerce Express (ECE)**: Az e-commerce szolgáltatás neve, amelynek célja egy modern és felhasználóbarát online kiskereskedelmi platform kifejlesztése.
