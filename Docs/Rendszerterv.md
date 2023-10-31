@@ -107,3 +107,5 @@ A projekt ütemtervét a következő mérföldkövek határozzák meg:
 9. **Visszatérítés és garancia**
    - Ha a vásárlók elégedetlenek a termékkel, lehetőségük van visszaküldeni vagy cserélni azt.
    - Az e-kereskedőnek gondoskodnia kell a garanciális ügyintézésről.
+10. **Visszajelzések és értékelések**
+   - A vásárlók értékelhetik a vásárlást és hozzászólásokat írhatnak a termékekhez, amelyek segítenek a többi vásárlónak a döntésben.
