@@ -179,6 +179,8 @@ A megfeleltetési táblázatban a következő jelöléseket alkalmazzuk:
 - A felhasználó sikeresen megvásárolta a terméket és megkapta a rendelési visszaigazolást.
 - A rendelés a megfelelő szállítási címre érkezik a megadott időben.
 
+![Forgatókönyv](f/Abrak/orgatokonyv.png)
+
 ### 10. Fogalomszótár
 
 1. **E-Commerce Express (ECE)**: Az e-commerce szolgáltatás neve, amelynek célja egy modern és felhasználóbarát online kiskereskedelmi platform kifejlesztése.
