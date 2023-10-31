@@ -161,3 +161,9 @@ Felhasználói élmény:
 
 - Az oldalnak felhasználóbarátnak kell lennie, könnyen navigálhatónak és mobilbarátnak kell lennie.
 
+- **Skálázhatóság:**
+
+- A rendszernek skálázhatónak kell lennie annak érdekében, hogy megnövekedett forgalom esetén is képes legyen megfelelően működni.
+Kompatibilitás:
+
+- A weboldalnak különböző böngészőkkel és operációs rendszerekkel kompatibilisnek kell lennie.
