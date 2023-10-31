@@ -117,3 +117,8 @@ A projekt ütemtervét a következő mérföldkövek határozzák meg:
 ## IV. Követelmények
 
 ### Funkcionális Követelmények
+
+- **Felhasználói regisztráció és bejelentkezés:**
+
+- A weboldalnak lehetővé kell tennie a felhasználók regisztrációját, beleértve a nevet, e-mail címet és jelszót.
+Bejelentkezési folyamat a felhasználók számára, hogy hozzáférjenek saját fiókjukhoz.
