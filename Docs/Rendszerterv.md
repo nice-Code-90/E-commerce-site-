@@ -91,4 +91,6 @@ A projekt ütemtervét a következő mérföldkövek határozzák meg:
    - Az e-kereskedő egy felhasználóbarát weboldalt készít, amely lehetővé teszi a vásárlók számára a termékek könnyű böngészését és megrendelését.
 3. **Vásárlói regisztráció**
    - A vásárlók regisztrálják magukat a weboldalon, vagy lehetőséget kapnak vendégként is vásárolni.
+4. **Kosárba helyezés**
+   - A vásárlók böngészik a weboldalt, kiválasztják a termékeket, és ezeket a virtuális kosárba helyezik.
 
