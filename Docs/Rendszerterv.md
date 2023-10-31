@@ -127,3 +127,7 @@ Bejelentkezési folyamat a felhasználók számára, hogy hozzáférjenek saját
 
 - A weboldalnak lehetővé kell tennie a termékek hozzáadását, módosítását és törlését az adminisztrátorok számára.
 A felhasználók számára a termékek böngészését és keresését.
+
+- **Kosárkezelés:**
+
+- Felhasználóknak lehetőségük kell kapni a kosárba helyezésre, a kosár tartalmának módosítására és a vásárlás véglegesítésére.
