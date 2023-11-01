@@ -176,3 +176,10 @@ Kompatibilitás:
 
 -A rendszernek lehetőséget kell biztosítania a teljesítménymérésre és az adatok elemzésére a fejlesztések és optimalizálások számára.
 
+## V. Rendszerarchitektúra
+
+### Architekturális terv
+
+**Felhasználói interfész (UI):**
+   -Felhasználói felület:A weboldal, amelyet a vásárlók böngésznek és használnak a termékek böngészésére és vásárlásra.
+
