@@ -320,3 +320,7 @@ Kompatibilitás:
    - B. SSL és adatvédelem:
       - SSL tanúsítvány működésének ellenőrzése
       - Felhasználói adatok és fizetési információk biztonságának tesztelése
+
+**4. Mobil és böngészőkompatibilitás teszt:**
+   - A. Weboldal működése különböző böngészőkben (Chrome, Firefox, Safari, stb.)
+   - B. Mobil eszközökön (iOS, Android) történő böngészés és vásárlás tesztelése
