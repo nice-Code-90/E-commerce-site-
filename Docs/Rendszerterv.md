@@ -331,3 +331,7 @@ Kompatibilitás:
 **6. Használhatósági teszt:**
    - A. Felhasználói élmény elemzése és javítása
    - B. Vásárlók visszajelzéseinek figyelembevétele
+
+**7. Rendellenességi helyzetek tesztelése:**
+   - A. Hibajelzések és hibakezelés ellenőrzése
+   - B. Weboldal stabilitásának tesztelése terheléssel
