@@ -194,3 +194,6 @@ Kompatibilitás:
    -Kosárkezelés: A vásárlók virtuális kosarában található termékek kezelése, hozzáadás, eltávolítás és módosítás lehetősége.
    -Rendeléskiszolgálás: A vásárlók rendeléseinek feldolgozása, szállítás előkészítése, visszaigazolások küldése stb.
    -Fizetési szolgáltatás: A vásárlók fizetési adatainak fogadása és feldolgozása, beleértve hitelkártya tranzakciókat, PayPal-t stb.
+**Kereső és kategóriakezelés:**
+   -Keresési motor: A termékek könnyű megtalálását és böngészését segítő keresőmotor.
+   -Kategóriakezelés: A termékek kategóriákba való csoportosítása és kezelése.
