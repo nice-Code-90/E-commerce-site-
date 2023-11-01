@@ -199,3 +199,6 @@ Kompatibilitás:
    -Kategóriakezelés: A termékek kategóriákba való csoportosítása és kezelése.
 **Vásárlói visszajelzés és értékelések:**
    -Vásárlói vélemények és értékelések: A vásárlók által hagyott vélemények és értékelések megjelenítése a termékekről.
+**Analitika és riportok:**
+   -Adatok elemzése: Az e-kereskedelmi weboldal teljesítményének és felhasználói viselkedésének elemzése.
+   -Riportok: Riportok készítése a termékeladásokról, a látogatókról és a készletstátuszokról.
