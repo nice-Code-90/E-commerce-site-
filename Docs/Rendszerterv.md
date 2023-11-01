@@ -202,3 +202,6 @@ Kompatibilitás:
 **Analitika és riportok:**
    -Adatok elemzése: Az e-kereskedelmi weboldal teljesítményének és felhasználói viselkedésének elemzése.
    -Riportok: Riportok készítése a termékeladásokról, a látogatókról és a készletstátuszokról.
+**Biztonság:**
+   -SSL-titkosítás: Adataink titkosítása az interneten való továbbítás során.
+   -Tűzfal és biztonsági intézkedések: A weboldal védelme a kibertámadások ellen, például DDoS-támadások ellen.
