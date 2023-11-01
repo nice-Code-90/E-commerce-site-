@@ -356,3 +356,11 @@ Kompatibilitás:
 - **Szerverellenőrzés** állapotát és teljesítmény kapcsán
 
 - **Hibajelentések kezelése:** weboldal használói visszajelzések alapján
+
+### Havi karbantartás:
+
+- **Biztonsági frissítések:** legfrissebb biztonsági frissítés telepítése
+
+- **Teljesítményoptimalizálás**
+
+- **Felhasználói élmény javítása:** Felmérés visszajelzések, illetve weboldal használat alapján, majd a felhasználói élmény javításának megtervezése
