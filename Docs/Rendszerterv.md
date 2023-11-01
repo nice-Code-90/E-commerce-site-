@@ -206,15 +206,15 @@ Kompatibilitás:
    - SSL-titkosítás: Adataink titkosítása az interneten való továbbítás során.
    - Tűzfal és biztonsági intézkedések: A weboldal védelme a kibertámadások ellen, például DDoS-támadások ellen.
 
-## VI. Adatmodell
-
-### Adatmodell pontos részletezése
-
-**Felhasználók (Users):**
-   - Felhasználó azonosító (User ID)
-   - Felhasználónév (Username)
-   - Jelszó (Password)
-   - Teljes név (Full Name)
-   - E-mail cím (Email)
-   - Szállítási cím (Shipping Address)
-   - Számlázási cím (Billing Address)
+## VI. Adatmodell 
+ 
+### Adatmodell pontos részletezése 
+ 
+**Felhasználók (Users):** 
+   - Felhasználó azonosító (User ID) 
+   - Felhasználónév (Username) 
+   - Jelszó (Password) 
+   - Teljes név (Full Name) 
+   - E-mail cím (Email) 
+   - Szállítási cím (Shipping Address) 
+   - Számlázási cím (Billing Address) 
