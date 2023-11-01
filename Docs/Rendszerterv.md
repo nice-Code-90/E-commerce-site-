@@ -185,4 +185,5 @@ Kompatibilitás:
 **Webes szerver:**
    -Webes alkalmazás szerver: A weboldal üzleti logikáját futtató szerveralkalmazás, amely fogadja a kéréseket, kezeli az üzleti folyamatokat, és generálja a válaszokat a böngészőknek.
    -Adatbázis szerver: Az adatok tárolására és kezelésére szolgáló adatbázisrendszer, amely tárolja a termékadatokat, vásárlói adatokat, rendeléseket stb.
-
+**Felhasználói autentikáció és hitelesítés:**
+   -Felhasználói fiókkezelés: A felhasználók regisztrációját, bejelentkezését és profilkezelését biztosító szolgáltatások.
