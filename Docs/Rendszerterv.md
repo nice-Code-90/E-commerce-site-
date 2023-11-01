@@ -324,3 +324,6 @@ Kompatibilitás:
 **4. Mobil és böngészőkompatibilitás teszt:**
    - A. Weboldal működése különböző böngészőkben (Chrome, Firefox, Safari, stb.)
    - B. Mobil eszközökön (iOS, Android) történő böngészés és vásárlás tesztelése
+
+**5. Rendszerintegrációs teszt:**
+   - A. Harmadik féltől származó rendszerekkel való integráció tesztelése (pl. fizetési átjárók, raktárkezelő rendszerek)
