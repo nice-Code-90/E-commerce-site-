@@ -182,29 +182,38 @@ Kompatibilitás:
 
 **Felhasználói interfész (UI):**
    - Felhasználói felület:A weboldal, amelyet a vásárlók böngésznek és használnak a termékek böngészésére és vásárlásra.
+
 **Webes szerver:**
    - Webes alkalmazás szerver: A weboldal üzleti logikáját futtató szerveralkalmazás, amely fogadja a kéréseket, kezeli az üzleti folyamatokat, és generálja a válaszokat a böngészőknek.
    - Adatbázis szerver: Az adatok tárolására és kezelésére szolgáló adatbázisrendszer, amely tárolja a termékadatokat, vásárlói adatokat, rendeléseket stb.
+
 **Felhasználói autentikáció és hitelesítés:**
    - Felhasználói fiókkezelés: A felhasználók regisztrációját, bejelentkezését és profilkezelését biztosító szolgáltatások.
+
 **Termékkezelés:**
    - Termékadatbázis: Az összes elérhető termék adatainak tárolása, például terméknevek, leírások, árak, képek stb.
    - Készletkezelés: Az aktuális termékkészletek és rendelkezésre álló mennyiségek nyomon követése.
+
 **Vásárlási folyamat:**
    - Kosárkezelés: A vásárlók virtuális kosarában található termékek kezelése, hozzáadás, eltávolítás és módosítás lehetősége.
    - Rendeléskiszolgálás: A vásárlók rendeléseinek feldolgozása, szállítás előkészítése, visszaigazolások küldése stb.
    - Fizetési szolgáltatás: A vásárlók fizetési adatainak fogadása és feldolgozása, beleértve hitelkártya tranzakciókat, PayPal-t stb.
+
 **Kereső és kategóriakezelés:**
    - Keresési motor: A termékek könnyű megtalálását és böngészését segítő keresőmotor.
    - Kategóriakezelés: A termékek kategóriákba való csoportosítása és kezelése.
+
 **Vásárlói visszajelzés és értékelések:**
    - Vásárlói vélemények és értékelések: A vásárlók által hagyott vélemények és értékelések megjelenítése a termékekről.
+
 **Analitika és riportok:**
    - Adatok elemzése: Az e-kereskedelmi weboldal teljesítményének és felhasználói viselkedésének elemzése.
    - Riportok: Riportok készítése a termékeladásokról, a látogatókról és a készletstátuszokról.
+
 **Biztonság:**
    - SSL-titkosítás: Adataink titkosítása az interneten való továbbítás során.
    - Tűzfal és biztonsági intézkedések: A weboldal védelme a kibertámadások ellen, például DDoS-támadások ellen.
+
 
 ## VI. Adatmodell 
  
@@ -218,3 +227,12 @@ Kompatibilitás:
    - E-mail cím (Email) 
    - Szállítási cím (Shipping Address) 
    - Számlázási cím (Billing Address) 
+
+**Termékek (Products):** 
+   - Termék azonosító (Product ID)
+   - Termék neve (Product Name)
+   - Leírás (Description)
+   - Ár (Price)
+   - Készlet mennyisége (Stock Quantity)
+   - Kategória (Category)
+   - Kép URL (Image URL)
