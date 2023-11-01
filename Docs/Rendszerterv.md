@@ -190,3 +190,7 @@ Kompatibilitás:
 **Termékkezelés:**
    -Termékadatbázis: Az összes elérhető termék adatainak tárolása, például terméknevek, leírások, árak, képek stb.
    -Készletkezelés: Az aktuális termékkészletek és rendelkezésre álló mennyiségek nyomon követése.
+**Vásárlási folyamat:**
+   -Kosárkezelés: A vásárlók virtuális kosarában található termékek kezelése, hozzáadás, eltávolítás és módosítás lehetősége.
+   -Rendeléskiszolgálás: A vásárlók rendeléseinek feldolgozása, szállítás előkészítése, visszaigazolások küldése stb.
+   -Fizetési szolgáltatás: A vásárlók fizetési adatainak fogadása és feldolgozása, beleértve hitelkártya tranzakciókat, PayPal-t stb.
