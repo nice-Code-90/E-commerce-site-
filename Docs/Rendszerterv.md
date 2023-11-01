@@ -327,3 +327,7 @@ Kompatibilitás:
 
 **5. Rendszerintegrációs teszt:**
    - A. Harmadik féltől származó rendszerekkel való integráció tesztelése (pl. fizetési átjárók, raktárkezelő rendszerek)
+
+**6. Használhatósági teszt:**
+   - A. Felhasználói élmény elemzése és javítása
+   - B. Vásárlók visszajelzéseinek figyelembevétele
