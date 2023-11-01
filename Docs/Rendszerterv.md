@@ -335,3 +335,6 @@ Kompatibilitás:
 **7. Rendellenességi helyzetek tesztelése:**
    - A. Hibajelzések és hibakezelés ellenőrzése
    - B. Weboldal stabilitásának tesztelése terheléssel
+
+**8. Beélesztési (live) tesztelés:**
+   - A. Tesztelés az élő környezetben, valós felhasználókkal, valós forgalommal
