@@ -273,3 +273,34 @@ Kompatibilitás:
    - Akciók és kuponok
    - Egyéb információk
 
+## VIII. Teszt Terv
+
+**1. Funkcionális tesztelés:**
+   - A. Regisztráció és belépés:
+      - Regisztráció működése
+      - Bejelentkezési folyamat tesztelése
+      - Elfelejtett jelszó funkció tesztelése
+
+   - B. Termékkeresés és böngészés:
+      - Kereső funkció működése
+      - Kategóriák és termékek böngészésének tesztelése
+
+   - C. Termékoldalak:
+      - Termékoldalak betöltése és megjelenése
+      - Termékleírás és képek ellenőrzése
+      - Árak és elérhetőség tesztelése
+      - Ajánlott termékek és kapcsolódó termékek megjelenése
+
+   - D. Kosár és pénztári folyamat:
+      - Termék hozzáadása a kosárhoz
+      - Kosár tartalmának ellenőrzése
+      - Fizetési és szállítási opciók tesztelése
+      - Rendelés véglegesítése
+
+   - E. Fizetési rendszer:
+      - Különböző fizetési módok tesztelése (bankkártya, PayPal, stb.)
+      - Tranzakciók feldolgozásának tesztelése
+      
+   - F. Felhasználói fiókok és profilok:
+      - Profilinformációk frissítésének tesztelése
+      - Rendelési előzmények és státuszok ellenőrzése
