@@ -300,7 +300,15 @@ Kompatibilitás:
    - E. Fizetési rendszer:
       - Különböző fizetési módok tesztelése (bankkártya, PayPal, stb.)
       - Tranzakciók feldolgozásának tesztelése
-      
+
    - F. Felhasználói fiókok és profilok:
       - Profilinformációk frissítésének tesztelése
       - Rendelési előzmények és státuszok ellenőrzése
+
+**2. Teljesítmény- és terhelés teszt:**
+   - A. Weboldal sebességteszt:
+      - Weboldal betöltési idejének mérése
+      - Képek és stíluslapok optimalizálásának ellenőrzése
+   - B. Terheléses teszt:
+      - Egyidejű látogatók szimulálása
+      - Nagy forgalmú időszakokban a weboldal válaszidejének ellenőrzése
