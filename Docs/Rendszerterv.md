@@ -341,3 +341,8 @@ Kompatibilitás:
 
 **9. Dokumentáció ellenőrzése:**
    - A. Tesztelési eredmények dokumentálása és áttekintése
+
+**10. Visszajelzés és javítás:**
+   - A. Teszteredmények elemzése
+   - B. Hiba- és javaslatok rögzítése
+   - C. Hiba javítása és javaslatok beépítése
