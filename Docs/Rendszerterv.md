@@ -236,3 +236,11 @@ Kompatibilitás:
    - Készlet mennyisége (Stock Quantity)
    - Kategória (Category)
    - Kép URL (Image URL)
+
+**Rendelések (Orders):**
+   - Rendelés azonosító (Order ID)
+   - Felhasználó azonosítója (User ID)
+   - Rendelés dátuma (Order Date)
+   - Rendelt termékek (Ordered Products)
+   - Összeg (Total Amount)
+   - Szállítási információk (Shipping Information)
