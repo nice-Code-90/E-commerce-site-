@@ -363,4 +363,12 @@ Kompatibilitás:
 
 - **Teljesítményoptimalizálás**
 
-- **Felhasználói élmény javítása:** Felmérés visszajelzések, illetve weboldal használat alapján, majd a felhasználói élmény javításának megtervezése
+- **Felhasználói élmény javítása:** felmérés visszajelzések, illetve weboldal használat alapján, majd a felhasználói élmény javításának megtervezése
+
+### Éves karbantartás:
+
+- **Biztonsági ellenőrzés:** biztonsági rések kijavítása
+
+- **Szolgáltatásfrissítések:** szolgáltatások ellenőrzése, és az elavultak vagy már nem támogatottak frissítése
+
+- **Jövőbeli tervek:** A következő év stratégiai tervének összeállítása, például új funkciók bevezetése
