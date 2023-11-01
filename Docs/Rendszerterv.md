@@ -244,3 +244,9 @@ Kompatibilitás:
    - Rendelt termékek (Ordered Products)
    - Összeg (Total Amount)
    - Szállítási információk (Shipping Information)
+
+**Kosár (Shopping Cart):**
+   - Kosár azonosító (Cart ID)
+   - Felhasználó azonosítója (User ID)
+   - Kosárban lévő termékek (Products in Cart)
+   - Összeg (Total Amount)
