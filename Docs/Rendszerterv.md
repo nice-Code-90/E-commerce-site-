@@ -257,3 +257,19 @@ Kompatibilitás:
    - Termék azonosítója (Product ID)
    - Szöveges vélemény (Text Review)
    - Értékelés (Rating)
+
+## VII. Felhasználói Felület
+
+   - Menüsáv
+   - Keresőmező
+   - Termékelrendezés
+   - Termékoldalak
+   - Kosár
+   - Regisztráció és bejelentkezés
+   - Fizetési lehetőségek
+   - Szállítás és visszatérés
+   - Értékelések és vélemények
+   - Kapcsolatfelvételi információk
+   - Akciók és kuponok
+   - Egyéb információk
+
