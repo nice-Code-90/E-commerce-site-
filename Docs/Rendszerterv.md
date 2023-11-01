@@ -250,3 +250,10 @@ Kompatibilitás:
    - Felhasználó azonosítója (User ID)
    - Kosárban lévő termékek (Products in Cart)
    - Összeg (Total Amount)
+
+**Vélemények és értékelések (Reviews and Ratings):**
+   - Vélemény azonosító (Review ID)
+   - Felhasználó azonosítója (User ID)
+   - Termék azonosítója (Product ID)
+   - Szöveges vélemény (Text Review)
+   - Értékelés (Rating)
