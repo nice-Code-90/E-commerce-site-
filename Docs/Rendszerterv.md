@@ -197,3 +197,5 @@ Kompatibilitás:
 **Kereső és kategóriakezelés:**
    -Keresési motor: A termékek könnyű megtalálását és böngészését segítő keresőmotor.
    -Kategóriakezelés: A termékek kategóriákba való csoportosítása és kezelése.
+**Vásárlói visszajelzés és értékelések:**
+   -Vásárlói vélemények és értékelések: A vásárlók által hagyott vélemények és értékelések megjelenítése a termékekről.
