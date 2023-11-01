@@ -338,3 +338,6 @@ Kompatibilitás:
 
 **8. Beélesztési (live) tesztelés:**
    - A. Tesztelés az élő környezetben, valós felhasználókkal, valós forgalommal
+
+**9. Dokumentáció ellenőrzése:**
+   - A. Tesztelési eredmények dokumentálása és áttekintése
