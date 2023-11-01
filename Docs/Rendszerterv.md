@@ -346,3 +346,13 @@ Kompatibilitás:
    - A. Teszteredmények elemzése
    - B. Hiba- és javaslatok rögzítése
    - C. Hiba javítása és javaslatok beépítése
+
+## IX. Karbantartási Terv
+
+### Heti karbantartás:
+
+- **Biztonsági mentések** a weboldalad adatairól, beleértve az adatbázist is.
+
+- **Szerverellenőrzés** állapotát és teljesítmény kapcsán
+
+- **Hibajelentések kezelése:** weboldal használói visszajelzések alapján
