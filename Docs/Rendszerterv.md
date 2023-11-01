@@ -187,3 +187,6 @@ Kompatibilitás:
    -Adatbázis szerver: Az adatok tárolására és kezelésére szolgáló adatbázisrendszer, amely tárolja a termékadatokat, vásárlói adatokat, rendeléseket stb.
 **Felhasználói autentikáció és hitelesítés:**
    -Felhasználói fiókkezelés: A felhasználók regisztrációját, bejelentkezését és profilkezelését biztosító szolgáltatások.
+**Termékkezelés:**
+   -Termékadatbázis: Az összes elérhető termék adatainak tárolása, például terméknevek, leírások, árak, képek stb.
+   -Készletkezelés: Az aktuális termékkészletek és rendelkezésre álló mennyiségek nyomon követése.
