@@ -312,3 +312,11 @@ Kompatibilitás:
    - B. Terheléses teszt:
       - Egyidejű látogatók szimulálása
       - Nagy forgalmú időszakokban a weboldal válaszidejének ellenőrzése
+
+**3. Biztonsági tesztelés:**
+   - A. Weboldal sebezhetőségek ellenőrzése:
+      - SQL injection támadások elhárítása
+      - Cross-Site Scripting (XSS) elleni védelem tesztelése
+   - B. SSL és adatvédelem:
+      - SSL tanúsítvány működésének ellenőrzése
+      - Felhasználói adatok és fizetési információk biztonságának tesztelése
