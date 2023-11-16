@@ -5,3 +5,10 @@ const connectDatabase = require('../config/database');
 const products = require('../data/products');
 
 dotenv.config({ path: 'backend/config/config.env'})
+
+connectDatabase();
+
+const seedProducts = async () => {
+    try {
+        await Product.deleteMany();
+        console.log('Products are deleted.');
