@@ -1,4 +1,5 @@
-const Product = require('../models/product')
+const Product = require("../models/product");
+const ErrorHandler = require("../utils/errorHandler");
 
 //uj projekt keszitese => /api/v1/product/new
 exports.newProduct = async (req, res, next) => {
@@ -6,33 +7,28 @@ exports.newProduct = async (req, res, next) => {
 
   res.status(201).json({
     success: true,
-    product
-  })
-}
+    product,
+  });
+};
 
-exports.getProducts = async(req, res, next) => {
-
+exports.getProducts = async (req, res, next) => {
   const products = await Product.find();
   res.status(200).json({
     success: true,
     count: products.length,
-    products
+    products,
   });
 };
 
 exports.getSingleProduct = async (req, res, next) => {
-
   const products = await Product.findById(req.params.id);
 
-  if(!product){
-    return res.status(404).json({
-      success: false,
-      message: 'Product not found'
-    })
+  if (!product) {
+    return next(new ErrorHandler("Product not found", 404));
   }
 
   res.status(200).json({
     success: true,
-    product
-  })
-}
+    product,
+  });
+};
