@@ -19,3 +19,8 @@ exports.getProducts = async(req, res, next) => {
     products
   });
 };
+
+exports.getSingleProduct = async (req, res, next) => {
+
+  const products = await Product.findById(req.params.id);
+}
