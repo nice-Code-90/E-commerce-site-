@@ -9,7 +9,7 @@ exports.newProduct = catchAsyncErrors(async (req, res, next) => {
 
   res.status(201).json({
     success: true,
-    product,
+    product
   });
 });
 
@@ -27,7 +27,7 @@ exports.getProducts = catchAsyncErrors(async (req, res, next) => {
     success: true,
     count: products.length,
     productCount,
-    products,
+    products
   });
 });
 
@@ -40,7 +40,7 @@ exports.getSingleProduct = catchAsyncErrors(async (req, res, next) => {
 
   res.status(200).json({
     success: true,
-    product,
+    product
   });
 });
 
@@ -59,7 +59,7 @@ exports.updateProduct = catchAsyncErrors(async (req, res, next) => {
 
   res.status(200).josn({
     success: true,
-    product,
+    product
   });
 });
 
