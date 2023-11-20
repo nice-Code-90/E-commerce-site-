@@ -7,6 +7,7 @@ const errorMiddleware = require("./middlewares/errors");
 
 app.use(express.json());
 app.use(cookieParser());
+
 //Útvonalak importálása
 const products = require("./routes/product");
 const auth = require("./routes/auth");
