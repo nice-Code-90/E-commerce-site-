@@ -103,6 +103,11 @@ exports.forgotPassword = catchAsyncErrors(async (req, res, next) => {
 
 })
 
+//Jelszó reset => /api/v1/password/reset
+exports.forgotPassword = catchAsyncErrors(async (req, res, next) => {
+
+})
+
 //Reset password => /api/v1/password/reset/:token
 
 exports.resetPassword = catchAsyncErrors(async (req, res, next) => {
