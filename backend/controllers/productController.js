@@ -1,18 +1,17 @@
 const Product = require("../models/product");
 const ErrorHandler = require("../utils/errorHandler");
 const catchAsyncErrors = require("../middlewares/catchAsyncErrors");
-const APIFeature = require("../utils/apiFeatures");
+const APIFeatures = require("../utils/apiFeatures");
 
 //uj projekt keszitese => /api/v1/product/new
 exports.newProduct = catchAsyncErrors(async (req, res, next) => {
-
   req.body.user = req.user.id;
 
   const product = await Product.create(req.body);
 
   res.status(201).json({
     success: true,
-    product
+    product,
   });
 });
 
@@ -20,7 +19,7 @@ exports.getProducts = catchAsyncErrors(async (req, res, next) => {
   const resPerPage = 4;
   const productCount = await Product.countDocuments();
 
-  const apiFeatures = new APIFeatures(Product.find(), req, query)
+  const apiFeatures = new APIFeatures(Product.find(), req.query)
     .search()
     .filter()
     .pagination(resPerPage);
@@ -30,7 +29,7 @@ exports.getProducts = catchAsyncErrors(async (req, res, next) => {
     success: true,
     count: products.length,
     productCount,
-    products
+    products,
   });
 });
 
@@ -43,7 +42,7 @@ exports.getSingleProduct = catchAsyncErrors(async (req, res, next) => {
 
   res.status(200).json({
     success: true,
-    product
+    product,
   });
 });
 
@@ -60,9 +59,9 @@ exports.updateProduct = catchAsyncErrors(async (req, res, next) => {
     useFindAndModify: false,
   });
 
-  res.status(200).josn({
+  res.status(200).json({
     success: true,
-    product
+    product,
   });
 });
 
