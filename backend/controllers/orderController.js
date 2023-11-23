@@ -61,19 +61,29 @@ exports.myOrders = catchAsyncErrors(async (req, res, next) => {
   });
 });
 
-///Get all orders  => /api/v1/admin/orders
-exports.allOrders = catchAsyncErrors(async (req, res, next) => {
-  const orders = await Order.find();
+///Update / Process order -ADMIN  => /api/v1/admin/orders/:id
+exports.AllOrder = catchAsyncErrors(async (req, res, next) => {
+  const orders = await Order.findById(req.params.id);
 
-  let totalAmount = 0;
+  if(order.orderStatus == 'Delivered') {
+    return next(new ErrorHandler('You have already delivered this order',400))
+  }
 
-  orders.foreach((order) => {
-    totalAmount += order.totalPrice;
-  });
+
+  order.orderStatus  = req.body.status,
+  order.deliveredAt = Date.now()
+
+  await order.save()
 
   res.status(200).json({
     success: true,
-    totalAmount,
-    orders,
   });
 });
+
+async function  updateStock(id, quantity) {
+  const product = await Product.findById(id);
+
+  product.stock = product.stock -quantity;
+
+ 
+};
