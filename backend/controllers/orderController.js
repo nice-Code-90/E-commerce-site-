@@ -62,13 +62,16 @@ exports.myOrders = catchAsyncErrors(async (req, res, next) => {
 });
 
 ///Update / Process order -ADMIN  => /api/v1/admin/orders/:id
-exports.AllOrder = catchAsyncErrors(async (req, res, next) => {
+exports.updateOrder = catchAsyncErrors(async (req, res, next) => {
   const orders = await Order.findById(req.params.id);
 
   if(order.orderStatus == 'Delivered') {
     return next(new ErrorHandler('You have already delivered this order',400))
   }
 
+  order.orderItems.forEach(async item => {
+    await updateStock(item.product, item.quantity)
+  });
 
   order.orderStatus  = req.body.status,
   order.deliveredAt = Date.now()
@@ -85,5 +88,5 @@ async function  updateStock(id, quantity) {
 
   product.stock = product.stock -quantity;
 
- 
+  await product.save({ validateBeforeSave: false})
 };
