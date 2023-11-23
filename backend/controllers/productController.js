@@ -84,3 +84,21 @@ exports.createProductReview = catchAsyncErrors(async(req,res,next) =>{
     rating: Number(rating),
     comment
   }
+  const product = await Product.findById(productId);
+
+  const isReviewed = product.reviews.find(
+    r => r.user.toString() === req.user._id.toString()
+  )
+
+  if(isReviewed){
+    product.reviews.forEach(review =>{
+      if(review.user.toString() === req.user._id.toString()){
+        review.comment =comment;
+        review.rating = rating;
+      }
+    })
+
+  } else {
+    product.reviews.push(review);
+    product.numOfReview = product.reviews.length
+  }
