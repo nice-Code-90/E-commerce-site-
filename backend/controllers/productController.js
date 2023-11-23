@@ -72,3 +72,15 @@ exports.deleteProduct = catchAsyncErrors(async (req, res, next) => {
     return next(new ErrorHandler("Product not found", 404));
   }
 });
+
+// Create new review => /api/v1/review
+exports.createProductReview = catchAsyncErrors(async(req,res,next) =>{
+  
+  const { rating, comment, productId} = req.body;
+
+  const review = {
+    user: req.user._id;
+    name: req.user.name,
+    rating: Number(rating),
+    comment
+  }
