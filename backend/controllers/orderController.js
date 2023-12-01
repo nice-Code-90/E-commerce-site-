@@ -65,9 +65,9 @@ exports.deleteOrder = catchAsyncErrors(async (req, res, next) => {
   await order.remove()
 
   res.status(200).json({
-    success: true,
-  });
-});
+    success: true
+  })
+})
 
 //Get logged in user orders => /api/v1/orders/me
 exports.myOrders = catchAsyncErrors(async (req, res, next) => {
@@ -75,9 +75,27 @@ exports.myOrders = catchAsyncErrors(async (req, res, next) => {
 
   res.status(200).json({
     success: true,
-    orders,
-  });
-});
+    orders
+  })
+})
+
+//Get all orders => /api/v1/admin/orders
+exports.allOrders = catchAsyncErrors(async (req, res, next) => {
+  const orders = await Order.find()
+
+  let totalAmount = 0;
+  order.forEach(order => {
+    totalAmount += order.totalPrice
+  })
+
+  res.status(200).json({
+    success: true,
+    totalAmount,
+    orders
+  })
+})
+
+
 
 ///Update / Process order -ADMIN  => /api/v1/admin/orders/:id
 exports.updateOrder = catchAsyncErrors(async (req, res, next) => {
@@ -97,9 +115,9 @@ exports.updateOrder = catchAsyncErrors(async (req, res, next) => {
   await order.save()
 
   res.status(200).json({
-    success: true,
-  });
-});
+    success: true
+  })
+})
 
 async function updateStock(id, quantity) {
   const product = await Product.findById(id);
