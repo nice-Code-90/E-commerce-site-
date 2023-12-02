@@ -22,9 +22,12 @@ exports.getProducts = catchAsyncErrors(async (req, res, next) => {
   const apiFeatures = new APIFeatures(Product.find(), req.query)
     .search()
     .filter()
-    .pagination(resPerPage);
+  
+  let products = await apiFeatures.query;
+  let filteredProductsCount = products.length;
 
-  const products = await apiFeatures.query;
+  apiFeatures.pagination(resPerPage)
+  products = await apiFeatures.query;
 
 
   setTimeout(() => {
@@ -32,6 +35,7 @@ exports.getProducts = catchAsyncErrors(async (req, res, next) => {
       success: true,
       productsCount,
       resPerPage,
+      filteredProductsCount,
       products,
     })
   }, 1000);
