@@ -29,8 +29,8 @@ exports.getProducts = catchAsyncErrors(async (req, res, next) => {
     success: true,
     productCount,
     products,
-  });
-});
+  })
+})
 
 exports.getSingleProduct = catchAsyncErrors(async (req, res, next) => {
   const product = await Product.findById(req.params.id);
