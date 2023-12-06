@@ -34,5 +34,5 @@ import {
                 ...state,
                 error: null,
             }
-        
+    }
 }
