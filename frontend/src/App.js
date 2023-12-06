@@ -1,10 +1,11 @@
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import Header from './components/layout/Header'
-import Footer from './components/layout/Footer'
-import Home from './components/Home'
-import productDetails from './components/product/productDetails'
-import Login from './components/user/Login'
+import Header from "./components/layout/Header";
+import Footer from "./components/layout/Footer";
+import Home from "./components/Home";
+import productDetails from "./components/product/productDetails";
+import Login from "./components/user/Login";
+import Register from "./components/user/Register";
 
 function App() {
   return (
@@ -16,8 +17,8 @@ function App() {
           <Route path="/search/:keyword" component={Home} />
           <Route path="/product/:id" component={productDetails} exact />
 
-          <Route path="/login" component={Login}/>
-
+          <Route path="/login" component={Login} />
+          <Route path="/register" component={Register} />
         </div>
         <Footer />
       </div>
