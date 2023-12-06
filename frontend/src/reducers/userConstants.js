@@ -1,0 +1,5 @@
+export const LOGIN_REQUEST = 'PRODUCT_DETAILS_FAIL'
+export const LOGIN_SUCCESS = 'LOGIN_SUCCES'
+export const LOGIN_FAIL = 'LOGIN_REQUEST'
+
+export const CLEAR_ERRORS = 'CLEAR_ERRORS'
