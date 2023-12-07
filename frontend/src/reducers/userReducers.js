@@ -8,6 +8,8 @@ import {
     LOAD_USER_REQUEST,
     LOAD_USER_SUCCESS,
     LOAD_USER_FAIL,
+    LOGOUT_SUCCESS,
+    LOGOUT_FAIL,
     CLEAR_ERRORS
   } from '../constants/userConstants'
 
@@ -32,6 +34,13 @@ import {
                 user: action.payload
             }
 
+            case LOGOUT_SUCCESS:
+                return {
+                    loading: false,
+                    isAuthenticated: false,
+                    user: null
+                }
+
         case LOAD_USER_FAIL:
             return{
                 loading:false,
@@ -39,6 +48,12 @@ import {
                 user:null,
                 error:action.played
             }
+
+            case LOGOUT_FAIL:
+                return{
+                    ...state,
+                    error: action.payload
+                } 
         case LOGIN_FAIL:
         case REGISTER_USER_FAIL:
             return{
@@ -48,7 +63,7 @@ import {
                 user: null,
                 error: action.payload
             }
-        clear CLEAR_ERRORS:
+        case CLEAR_ERRORS:
             return{
                 ...state,
                 error: null,
