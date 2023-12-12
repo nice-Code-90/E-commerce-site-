@@ -8,6 +8,8 @@ import Home from "./components/Home";
 import productDetails from "./components/product/productDetails";
 import Login from "./components/user/Login";
 import Register from "./components/user/Register";
+import Profile from './component/user/Profile';
+
 import { loadUser } from "./actions/userActions";
 import store from "./store";
 
@@ -27,6 +29,7 @@ function App() {
 
           <Route path="/login" component={Login} />
           <Route path="/register" component={Register} />
+          <Route path="/me" component={Profile} exact />
         </div>
         <Footer />
       </div>
