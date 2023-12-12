@@ -9,6 +9,10 @@ import {
     LOAD_USER_REQUEST,
     LOAD_USER_SUCCESS,
     LOAD_USER_FAIL,
+    UPDATE_PROFILE_REQUEST,
+    UPDATE_PROFILE_FAIL,
+    UPDATE_PROFILE_SUCCESS,
+    UPDATE_PROFILE_RESET,
     LOGOUT_SUCCES,
     LOGOUT_FAIL,
     CLEAR_ERRORS
@@ -89,6 +93,8 @@ export const loadUser =() => async (dispatch) => {
         })
     }
 }
+
+
 
 
 // Logout user
