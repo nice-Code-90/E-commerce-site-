@@ -29,7 +29,7 @@ const productDetails = ({ match }) => {
 
   const increaseQty = () => {
     const count = document.querySelector(".count");
-    if (count.valueAsNumber > +product.stock) {
+    if (count.valueAsNumber >= product.stock) {
       return;
     }
     const qty = count.valueAsNumber + 1;
