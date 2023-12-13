@@ -8,6 +8,8 @@ import Home from "./components/Home";
 import productDetails from "./components/product/productDetails";
 import Cart from "./components/cart/Cart";
 
+import Shipping from "./components/cart/Shipping";
+
 import Login from "./components/user/Login";
 import Register from "./components/user/Register";
 import Profile from "./component/user/Profile";
@@ -36,6 +38,7 @@ function App() {
           <Route path="/product/:id" component={productDetails} exact />
 
           <Route path="/cart" component={Cart} exact />
+          <Route path="/shipping" component={Shipping} exact />
 
           <Route path="/login" component={Login} />
           <Route path="/register" component={Register} />

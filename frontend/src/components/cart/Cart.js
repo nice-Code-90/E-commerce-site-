@@ -1,13 +1,16 @@
 import React, { Fragment } from 'react'
+
+
 import { Link } from 'react-router-dom'
 
 import MetaData from "../layout/MetaData";
+
 import { useDispatch, useSelector } from "react-redux";
 import { addItemToCart, removeItemFromCart } from '../../actions/cartActions'
 
 import { useAlert } from "react-alert";
 
-const Cart = () => {
+const Cart = ({ history }) => {
 
     const dispatch = useDispatch();
 
@@ -32,6 +35,10 @@ const Cart = () => {
         }
         dispatch(addItemToCart(id, newQty))
     };
+
+    const checkoutHandler = () => {
+        history.push('/login?redirect=shipping')
+    }
 
     return (
         <Fragment>
@@ -98,7 +105,7 @@ const Cart = () => {
                                     acc + item.quantity * item.price, 0).toFixed(2)}</span></p>
 
                                 <hr />
-                                <button id="checkout_btn" className="btn btn-primary btn-block">Check out</button>
+                                <button id="checkout_btn" className="btn btn-primary btn-block" onClick={checkoutHandler}>Check out</button>
                             </div>
                         </div>
                     </div>
