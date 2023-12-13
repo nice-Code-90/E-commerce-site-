@@ -12,6 +12,8 @@
   "author": "EKKE AFP1 agile team",
   "license": "ISC",
   "dependencies": {
+    "@stripe/react-stripe-js": "^2.4.0",
+    "@stripe/stripe-js": "^2.2.1",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.2",
     "cloudinary": "^1.41.0",
