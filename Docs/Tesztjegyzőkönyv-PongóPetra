@@ -1,0 +1,20 @@
+## Tesztjegyzőkönyv
+
+### Sikeres Tesztek
+
+| Teszteset | Leírás | Előfeltételek | Teszlépések | Várt Eredmények | Megjegyzések |
+| --- | --- | --- | --- | --- | --- |
+| 1 | **Bejelentkezés** | Regisztrált felhasználó | 1. Bejelentkezési oldal megnyitása. 2. Érvényes felhasználónév és jelszó megadása. | - Sikeres bejelentkezés esetén a felhasználó átirányítódik a főoldalra. | - A jelszó megfelelő hosszúságú és karaktereket tartalmaz. - A felhasználónév és jelszó kombinációja regisztrált felhasználóhoz tartozik. |
+| 2 | **Termék Kosárba Helyezése** | Bejelentkezés és elérhető termékek | 1. Termék kiválasztása. 2. Kívánt opciók megadása. 3. Kosárba Helyezés gombra kattintás. | - A termék sikeresen hozzá lett adva a felhasználó kosarához. | - A kosár tartalmazza a kiválasztott terméket és annak részleteit. - A felhasználó vissza tudja nézni a kosarában található termékeket. |
+| 3 | **Kosárból Termék Eltávolítása** | Bejelentkezés és legalább egy termék a kosárban | 1. Menjen a kosár oldalra. 2. Válassza ki a kosárban található terméket. 3. Termék eltávolítása gombra kattintás. | - A termék sikeresen eltávolítva a felhasználó kosarából. | - A kosár frissül és nem tartalmazza a kiválasztott terméket. - A felhasználó látja a frissített végösszeget. |
+| 4 | **Végösszeg Frissítése** | Bejelentkezés és legalább egy termék a kosárban | 1. Menjen a kosár oldalra. 2. Módosítsa a termék(ek) mennyiségét vagy egyéb tulajdonságait. 3. Végösszeg frissítése gombra kattintás. | - A végösszeg sikeresen frissül a kosárban található módosításoknak megfelelően. | - A felhasználó láthatja a frissített végösszeget és az összes módosítást. - A kosár tartalmazza a módosított termékeket. |
+| 5 | **Rendelés Leadása** | Bejelentkezés és legalább egy termék a kosárban | 1. Menjen a kosár oldalra. 2. Ellenőrizze és módosítsa a kosár tartalmát szükség esetén. 3. Válassza ki a szállítási és fizetési opciókat. 4. Kattintson a "Rendelés Leadása" gombra. | - A rendelés sikeresen elküldve. - A felhasználó kap egy rendelési visszaigazolást. | - A rendelési visszaigazolás tartalmazza a rendelés részleteit és várható szállítási információkat. - A felhasználó képes követni a rendelése állapotát. |
+
+### Sikertelen Tesztek
+
+| Teszteset | Leírás | Előfeltételek | Teszlépések | Várt Eredmények | Megjegyzések |
+| --- | --- | --- | --- | --- | --- |
+| 1 | **Sikertelen Bejelentkezés** | Regisztrált felhasználó | 1. Bejelentkezési oldal megnyitása. 2. Érvénytelen felhasználónév vagy jelszó megadása. | - Megjelenik egy hibaüzenet a sikertelen bejelentkezésről. | - A felhasználónak nem sikerült bejelentkeznie az érvénytelen adatok miatt. - Az E-Commerce Express visszautasítja a hibás bejelentkezési kísérletet. |
+| 2 | **Sikertelen Termék Kosárba Helyezése** | Bejelentkezés és elérhető termékek | 1. Termék kiválasztása. 2. Kívánt opciók megadása. 3. Adjon meg hibás mennyiséget vagy opciókat. 4. Kosárba Helyezés gombra kattintás. | - Megjelenik egy hibaüzenet a sikertelen kosárba helyezésről. | - A termék nem lett hozzáadva a kosárhoz az érvénytelen adatok miatt. - Az E-Commerce Express visszautasítja a hibás kosárba helyezési kísérletet. |
+| 3 | **Kosár Tartalmának Módosítása Sikertelen** | Bejelentkezés és legalább egy termék a kosárban | 1. Menjen a kosár oldalra. 2. Válassza ki a kosárban található terméket. 3. Ne válassza ki a módosítás opcióit. 4. Kosár frissítése gombra kattintás. | - Megjelenik egy hibaüzenet a sikertelen kosár tartalom módosításról. | - A kosár nem frissül, és nem engedi a módosítást az érvénytelen adatok miatt. - Az E-Commerce Express visszautasítja a hibás módosítási kísérletet. |
+| 4 | **Kosár Mennyiségének Növelése Sikertelen** | Bejelentkezés és legalább egy termék a kosárban | 1. Menjen a kosár oldalra. 2. Válassza ki a kosárban található terméket. 3. Növelje meg a kívánt mennyiséget. 4. Kosár frissítése gombra kattintás. | - Megjelenik egy hibaüzenet a sikertelen kosár mennyiség növeléséről. | - A kosár mennyisége nem növekszik az érvénytelen adatok miatt. - Az E-Commerce Express visszautasítja a hibás mennyiség növelési kísérletet. |
