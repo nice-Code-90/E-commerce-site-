@@ -40,7 +40,7 @@ const Payment = ({ history }) => {
         amount: Math.round(orderInfo.totalPrice * 100)
     }
 
-    const submitHandler = (e) => {
+    const submitHandler = async (e) => {
         e.preventDefault();
 
         document.querySelector('#pay_btn').disabled = true;
@@ -77,12 +77,16 @@ const Payment = ({ history }) => {
             } else {
                 if(result.paymentIntent.status === 'succeeded') {
                     history.push('/success')
+                } else{
+                    alert.error('There is some issue while payment processing')
                 }
             }
         }
         catch (error) {
             document.querySelector('#pay_btn').disabled = false;
             alert.error(error.response.data.message)
+
+            console.log(error.response.data);
         }
     }
     
@@ -132,7 +136,7 @@ const Payment = ({ history }) => {
                             type="submit"
                             className="btn btn-block py-3"
                         >
-                            Pay
+                            Pay {` - ${orderInfo && orderInfo.totalPrice}`}
                         </button>
 
                     </form>
