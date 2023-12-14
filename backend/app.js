@@ -17,10 +17,10 @@ app.use(cookieParser());
 app.use(fileUpload());
 
 //Útvonalak importálása
-const Products = require("./routes/product");
-const Auth = require("./routes/auth");
-const Payment = require("./routes/payment");
-const Order = require("./routes/order");
+const products = require("./routes/product");
+const auth = require("./routes/auth");
+const payment = require("./routes/payment");
+const order = require("./routes/order");
 
 app.use("/api/v1", products);
 app.use("/api/v1", auth);
