@@ -34,6 +34,58 @@ const Payment = ({ history }) => {
     useEffect(() => {
 
     }, [])
+    const orderInfo = JSON.parse(sessionStorage.getItem('orderInfo'));
+
+    const paymentData = {
+        amount: Math.round(orderInfo.totalPrice * 100)
+    }
+
+    const submitHandler = (e) => {
+        e.preventDefault();
+
+        document.querySelector('#pay_btn').disabled = true;
+
+        let res;
+
+        try {
+            const config = {
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            }
+            res = await axios.post('/api/v1/payment/process', paymentData, config)
+
+            const clientSecret = res.data.client_secret;
+
+            if(!stripe ||  !elements) {
+                return;
+            }
+
+            const result = await stripe.confirmCardPayment(clientSecret, {
+                payment_method: {
+                    card: elements.getElement(CardNumberElement),
+                    billiong_details: {
+                        name: user.name,
+                        email: user.email
+                    }
+                }
+            });
+
+            if(result.error) {
+                alert.error(result.error.message);
+                document.querySelector('#pay_btn').disabled = false;
+            } else {
+                if(result.paymentIntent.status === 'succeeded') {
+                    history.push('/success')
+                }
+            }
+        }
+        catch (error) {
+            document.querySelector('#pay_btn').disabled = false;
+            alert.error(error.response.data.message)
+        }
+    }
+    
 
     return (
         < Fragment >
@@ -42,7 +94,7 @@ const Payment = ({ history }) => {
 
             <div className="row wrapper">
                 <div className="col-10 col-lg-5">
-                    <form className="shadow-lg">
+                    <form className="shadow-lg" onSubmit={submitHandler}>
                         <h1 className="mb-4">Card Info</h1>
                         <div className="form-group">
                             <label htmlFor="card_num_field">Card Number</label>
